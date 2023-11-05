@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "@celo/contractkit": "^5.1.0",
+    "ts-node": "^10.9.1",
     "viem": "^1.18.4"
   },
   "devDependencies": {
