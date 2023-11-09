@@ -4,7 +4,6 @@
 
 > **WARNING**
 > Currently the prototype doesn't work. 
-> Neither `contractkit.js` nor `viem.ts` produce the correct results.
 
 ## Usage
 
