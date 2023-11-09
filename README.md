@@ -10,7 +10,6 @@
 ### Requirements
 
 - Node.js
-- No private keys required
 
 ### Demo
 
