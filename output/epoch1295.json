@@ -1,0 +1,4928 @@
+[
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x5b66c7BebbC7A2c57F95a42D55d8e3F5C7BbE5c9",
+      "to": "0x792dd70b5f3AF90B35bF305C5E1908FbbB4011c8",
+      "value": "8000000000000000000"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0xee125fb08de2d16dff50a908acfbaaa57f6e2ca7c6bf2fdc9e48f9f32a3afb9b"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x5b66c7BebbC7A2c57F95a42D55d8e3F5C7BbE5c9",
+      "to": "0xcD437749E43A154C07F3553504c68fBfD56B8778",
+      "value": "225702748128608"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0xee125fb08de2d16dff50a908acfbaaa57f6e2ca7c6bf2fdc9e48f9f32a3afb9b"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x5b66c7BebbC7A2c57F95a42D55d8e3F5C7BbE5c9",
+      "to": "0x03Ffd0f9d7a9c25284c6E8fB5103E28BD1B2D22f",
+      "value": "270843297684944"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0xee125fb08de2d16dff50a908acfbaaa57f6e2ca7c6bf2fdc9e48f9f32a3afb9b"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0xCcbFD3E39bF646C8eEe2dfD1ae59896701526A31",
+      "to": "0x044B0a8D8a6DBeF8383876eeed1300CA3ED16BA8",
+      "value": "100000000000000000"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x35ce77e5b910412974e30e81f84dc38cd90fdca38baca390507956fc3b370df2"
+  },
+  {
+    "name": "Celo native asset (CELO)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0xb460F9Ae1fEa4f77107146C1960bb1C978118816",
+      "to": "0x045D685D23e8Aa34Dc408a66Fb408f20DC84d785",
+      "value": "0"
+    },
+    "address": "0x471ece3750da237f93b8e339c536989b8978a438",
+    "transactionHash": "0x878e97d37463dae3d3898068faff1350a21f675a3b9295ce317b0c9cb33e1206"
+  },
+  {
+    "name": "EpochRewards",
+    "eventName": "TargetVotingYieldUpdated",
+    "args": {
+      "fraction": "212816060194882821140"
+    },
+    "address": "0x07f007d389883622ef8d4d347b3f78007f28d8b7",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x5e69Cca114a77AB0a5804108FAF0cD1E1C802A5e",
+      "score": "999503934257800000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x1819b44553Fa39A983D1c92238E1F18AeE30eF51",
+      "score": "996892939928800000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xCDd88f80ed52AfEc9D670f5a6Da8940EEe716f45",
+      "score": "999999987049000000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xbBC724bdf633287E8bC18aC45800e2eD13877a73",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x0e47ea88480788289bDa37D8Ae0C2CD680623cfA",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xD5Fb8A8E6E81BC77d7D807c05b5b8aEAe7c2a458",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x588eD7dEefF8DF7c00FF187C398936b101583ec7",
+      "score": "999871031901700000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xc2023E0D13F53d181f29B99D829CD75628337D15",
+      "score": "999990782977600000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x1Dd301fEaa72F4C07b3ca56ce0C27e98E66B77Bd",
+      "score": "999690009128200000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x39b01620ecdEB8347270ee78dC962b0EA583b57a",
+      "score": "999068796514900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x4e957bBC61AFDab63263fFdbAF201F6f596E3e2D",
+      "score": "998611669876600000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x4FC4EA624db2E4A1d6195a03744D505CbcD9431b",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x90b056B00952d71bC7866c067b49f5b062098ac9",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xDdc60B465c204Aa7358cE4f009D2dBC65af5C4B4",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x5F2E4e239bCD86e1cf97538Ea7D5E2Ec639a3Bc4",
+      "score": "999999803842300000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x7b3859147B1C173FfF7182E58A4Ec81C1d287224",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x089B1654325CcE14fb3e2dABCa2803bc489e83e7",
+      "score": "999716460085000000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xe5F947368C986DFe7a025B9B35deE3e5AC3a330e",
+      "score": "999999013848400000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x43fbd2B45Ef5C042F821D24E14933C570e05Ef78",
+      "score": "999729706139200000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xadBE75cBD14f92BA2D233b6b81E80D4634fAbB2a",
+      "score": "998599326015700000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x1F15d4210e34DfeeEc087C906b426509da1b01f1",
+      "score": "999778224392200000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xc627459BFc70cD7B6719d5b8030C3beA7825CA7e",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x112fF12927CD6f924d80b9Aba32E531733B602fF",
+      "score": "999778951038700000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x6e5a2624Ae582c96c5A12Eb168afA532a85AE829",
+      "score": "993838257804700000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xdb2e80840f40033761A5cdFa3B09fE24f95a4aaa",
+      "score": "997811783683300000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x30e0bfC25Df7642ee19Ff4fbCbE9ddeA4D1935bc",
+      "score": "999765288133300000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x5098A28bFa2Da3183E36C009c7D63093b66441a5",
+      "score": "999832190473000000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x45d8170f30b0d408196Ab0e14AF47D77b18f0A38",
+      "score": "995200225745500000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x249eF45381b29D9955b365C33F202127499B873f",
+      "score": "999999999990100000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xC3957f7848d6b09DCb29d784036B0A302555E75b",
+      "score": "941103897091300000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x31cAF587f96B7C6fC8f33eB07ad854A21Eec64D9",
+      "score": "804777011688700000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xB29438f402da218180bBa79fbc0fAdD3e9E151aa",
+      "score": "999999891207100000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xFE38631E7E164D20754387F7165B9C5b427dA17B",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x4D540eC31F9CC5b1d10a329EB4Eddf52CB3dC000",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x9C542c0B5aF5e04E2D1e67cf1fC176E91bC18dA0",
+      "score": "999976171607200000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xDdbca691842FD452d8F53575FdFdC2314eb3AD57",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x00A9e8869e40e038D0FaE63D825a732e6FfF48d1",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xaC6492D439b3b812e822d1e975338f48bDD0B1f2",
+      "score": "901233619885900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xF0b25502595911b64de75F453b34557C1b2c4760",
+      "score": "999998458094800000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x77eCf3c7AC7082344Edfee10e41Edb72fA3D1951",
+      "score": "999999056013400000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x28B5f40C3f5883021408Ce79F20FCf282E873236",
+      "score": "999964461655000000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x92aAe14a531086A665DAFF6eEdb5B71E00aCC6d1",
+      "score": "999836830501300000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x12125D1b7f01F32b3A741A6b97CB46f714f273aA",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x1AB89Fa8bdBd48F4426379abeB59803DD5283E3F",
+      "score": "996127000994800000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xE6d00B30A16eB21D2c3b4367c90ddEB4097a78a5",
+      "score": "999728305500700000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x7328B986cF7e7a1Baf62E257aAFa66abdA4109Ce",
+      "score": "998404403312800000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x8CC5De79fC6C21531577F7B3d62c8413FB3bd303",
+      "score": "987905582960500000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xcED2449cCd1aae8077eC0670224e663CE19C8Fc4",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x1d511366FEB1ed330925B2D51645bb5c607EA6D4",
+      "score": "999966654306100000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x5282F82f82E9a74E186b8Ee18cc76808b78DC383",
+      "score": "999993669447700000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xAB0C16BBd78D6b9F4503D81D859A3FFB64486F9A",
+      "score": "999243045980200000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x233c06EDc757003cA4ec078012F517F21A24C55c",
+      "score": "999771632308900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xbe505Db3e26655cd0a5488f396E391BFA523BeA4",
+      "score": "999997476179500000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xc8D1Dc1Ac8E0Ac039a8b1284ef687d557F812E5c",
+      "score": "995461408672300000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x54F10A9aaF1031149F4e43A9AB3aC1fe42651a84",
+      "score": "999320739328000000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x44a7Af700ACa1B24ECdB818dF4D202772D606Cb4",
+      "score": "924573146099500000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xe51662a4448cc9994Df7B28E4F0b38D678958B0D",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xF2aADf8fF2Ad7e5C1efb0d45Cb622618BA6636A7",
+      "score": "999999999913600000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x48aC52662CBF32f8FC0cd8c1122c7560b482c2AD",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x25f57B3343646196aeeFa69c106BBe3E3Ba8fD8A",
+      "score": "999984850045300000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x758d1000fB3d37F88cE3BA880882898a3B0ca3aB",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x206296BeffFB68fCE658535D443c732892162005",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x6ac7E3D0BDeb78ddcF3d9b15208B50C08271C213",
+      "score": "999999999959500000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x997490F08B9b99dB00657e2B1BbEc180Cf804A27",
+      "score": "989495868859300000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x00751D4E4861aDFFddDFCa5eC27703797A3B9349",
+      "score": "999915264556300000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x1AEF9bf15de73aDBA318FC8aEa3D2f45d120CC8A",
+      "score": "999999877085200000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x1C13efCBaeCCC17D41F4a23Da5CAC15167675B96",
+      "score": "990934578739900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x48dE6c6668c24e5Bd113d5C46d813C50fE2204D1",
+      "score": "998385177906100000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x399b3D48Fdcd668d274afc6F4be05475A325C6c6",
+      "score": "998996068485100000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xAb98b3C66Fb538c90359191067a5eA3aF8e5739B",
+      "score": "994864494328300000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x4aF806c873eb793EA95EF59811964F1Bde05Fb89",
+      "score": "998390480191300000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x8d1A5eF84252586f0f841a9fCF4E31f23c4c21E0",
+      "score": "999721493106400000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xB6A0DB24dD1a20183584Cde5dD883F4BB3Ae068c",
+      "score": "997245403000300000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xb2728EDcc9c255C2D053Ea6Cae31cFd584B758D3",
+      "score": "999999999983800000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xFcE0779607246eb5121a5A4192D6AC4A758C217D",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x35A5A989151683215Ec36898bB4497f524556B69",
+      "score": "993050341402600000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x394B846E0eCf83Ef350A2A7Ccb7Be0C6552e7cBC",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xdfBf9Cc8dBc04b9C07f292Bb9147c14dDf4152B7",
+      "score": "956425051861300000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x4a8FA59c7e41204445B756E521A591a75e57528C",
+      "score": "999481424626000000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xDF9121AFFb220e9095C875a79c3D1fA3EBEE4105",
+      "score": "946394346407500000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xa61486Fc99f22E5640c2D28Db78A721705Bd4158",
+      "score": "844325740181800000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xFEc62490E50B1038aB91CeeDcb79e9E39269263B",
+      "score": "998417525981500000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x5b9F5239b10f1d74Ea89F88FE3d50db7eCD6e450",
+      "score": "999978908229100000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x8C1Bf342693772A04bB223EA949f915ebf72521A",
+      "score": "999997037730100000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x5e687A6A1017d4E199921fd01f2dA91f737837cA",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x53EE2F047A2F12a2d0792a33BBA1F20396f8d590",
+      "score": "998800283110600000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xbE9636559C4a6cA9571A4aEFb33f1C4439cc6e78",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xe34CD052e59fF830b286a125c52Dde568AC8BD48",
+      "score": "337320026617688122000000",
+      "epochScore": "337320026617688122000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x5c886DA5e3B0e63f979633bDEB2a17bE49f2e829",
+      "score": "996396618327400000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x54D0D2E0F1cC1D7fb21e2350F14d79A1237605D1",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xFEA3a9f2b28E9EeA5EB14bE130c7C79459B2AA5e",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x9018F223B37bEe553721eD0bc93435239129C8E6",
+      "score": "999444697574500000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x2bDc5CcdA08A7F821ae0Df72B5Fda60Cd58d6353",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x07adF41F00dD7Ec9C63c445f3faD5cCbdc2a7c85",
+      "score": "999988590858400000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x0F412760759a2fAD4f07ceE36bfdAa218814DE89",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xd818F03476eF422BedDF720adDf5B3D3fd8353FE",
+      "score": "999821746185400000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x943e9a5c750adcc467575F4fE81bf6b1C3A2aeD7",
+      "score": "999999965000800000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xea11740878D662A4d4e9b9f0c7C04378ACf1E869",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x474df04481f778b46Fc71204C72B6A8BE396F0FF",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x307d958d9f0235058fE0a7e7e717A63d5aD6B143",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x4E3c453b4897451E6f84C6869f533cA04250259a",
+      "score": "999881683280200000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x0c7610F8F4dA332C77c9800012009CcfA48F23e4",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x989F3F2684F96B8cDeC308B4E7538A5a062890f0",
+      "score": "998277446464300000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xe17B899D1Ba93249BE07aFa6ca670FE165Bc5d17",
+      "score": "999032853458800000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xa2393Abeeea68558C70Ac8641C442F096e0530D4",
+      "score": "999999726588100000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xA9086800a41785EB6bFC48c1DcB3191C11A318fA",
+      "score": "612579511000000000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0xCF8f9a7a589A882f6331e795d38ad584bFdef4d2",
+      "score": "612579511000000000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x6cd5382592A34a0645881E623ed5BeD2E10A53BC",
+      "score": "612579511000000000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x23417206f7049b57cc701Ca82215F7C1427E09c1",
+      "score": "612579511000000000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorScoreUpdated",
+    "args": {
+      "validator": "0x0EBdCCD9091EFB1243417bDf3aDdd63132962586",
+      "score": "999999999991900000000000",
+      "epochScore": "1000000000000000000000000"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x614B7654ba0cC6000ABe526779911b70C1F7125A",
+      "value": "10047095228215291953"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x5e69Cca114a77AB0a5804108FAF0cD1E1C802A5e",
+      "value": "90423857053937627583"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x5e69Cca114a77AB0a5804108FAF0cD1E1C802A5e",
+      "group": "0x614B7654ba0cC6000ABe526779911b70C1F7125A",
+      "validatorPayment": "90423857053937627583",
+      "groupPayment": "10047095228215291953"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xC7d5409fEe80B3Ac37Dbc111664dC511a5982469",
+      "value": "10020849299845562407"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x1819b44553Fa39A983D1c92238E1F18AeE30eF51",
+      "value": "90187643698610061669"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x1819b44553Fa39A983D1c92238E1F18AeE30eF51",
+      "group": "0xC7d5409fEe80B3Ac37Dbc111664dC511a5982469",
+      "validatorPayment": "90187643698610061669",
+      "groupPayment": "10020849299845562407"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x3D451dd723797b3DE938C5B22412032B6452591A",
+      "value": "10052081591410659739"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xCDd88f80ed52AfEc9D670f5a6Da8940EEe716f45",
+      "value": "90468734322695937652"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xCDd88f80ed52AfEc9D670f5a6Da8940EEe716f45",
+      "group": "0x3D451dd723797b3DE938C5B22412032B6452591A",
+      "validatorPayment": "90468734322695937652",
+      "groupPayment": "10052081591410659739"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xc64DF5Be250264bf2888591D87cdeB13BFADC501",
+      "value": "10052081721513748253"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xbBC724bdf633287E8bC18aC45800e2eD13877a73",
+      "value": "90468735493623734282"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xbBC724bdf633287E8bC18aC45800e2eD13877a73",
+      "group": "0xc64DF5Be250264bf2888591D87cdeB13BFADC501",
+      "validatorPayment": "90468735493623734282",
+      "groupPayment": "10052081721513748253"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x0e47ea88480788289bDa37D8Ae0C2CD680623cfA",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x0e47ea88480788289bDa37D8Ae0C2CD680623cfA",
+      "group": "0x01b2b83fDf26aFC3Ca7062C35Bc68c8DdE56dB04",
+      "validatorPayment": "100520817215137482535",
+      "groupPayment": "0"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xD5Fb8A8E6E81BC77d7D807c05b5b8aEAe7c2a458",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xD5Fb8A8E6E81BC77d7D807c05b5b8aEAe7c2a458",
+      "group": "0x82f8Bcf96f24BA60Ef041D192c7CE04C907E2fb8",
+      "validatorPayment": "100520817215137482535",
+      "groupPayment": "0"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xF83C93ea360B66DDCD532960304948B1c10786a1",
+      "value": "20101570647463159592"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x588eD7dEefF8DF7c00FF187C398936b101583ec7",
+      "value": "80406282589852638371"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x588eD7dEefF8DF7c00FF187C398936b101583ec7",
+      "group": "0xF83C93ea360B66DDCD532960304948B1c10786a1",
+      "validatorPayment": "80406282589852638371",
+      "groupPayment": "20101570647463159592"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xc2023E0D13F53d181f29B99D829CD75628337D15",
+      "value": "100519890713327755422"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xc2023E0D13F53d181f29B99D829CD75628337D15",
+      "group": "0xAcdf897493A6000dbe256791E8A2beCbb405FD4F",
+      "validatorPayment": "100519890713327755422",
+      "groupPayment": "0"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x061E9958028dcAa66fd8B255AD95194203b6c4Da",
+      "value": "10048965668018887983"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x1Dd301fEaa72F4C07b3ca56ce0C27e98E66B77Bd",
+      "value": "90440691012169991855"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x1Dd301fEaa72F4C07b3ca56ce0C27e98E66B77Bd",
+      "group": "0x061E9958028dcAa66fd8B255AD95194203b6c4Da",
+      "validatorPayment": "90440691012169991855",
+      "groupPayment": "10048965668018887983"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xA432da0Ed5A2c15cbc681227cCec3b375908FdCB",
+      "value": "100427211880635106851"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x39b01620ecdEB8347270ee78dC962b0EA583b57a",
+      "group": "0xA432da0Ed5A2c15cbc681227cCec3b375908FdCB",
+      "validatorPayment": "0",
+      "groupPayment": "100427211880635106851"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x580F29aB04b7ED4E5aA86584D38c9317d9CF0358",
+      "value": "10038126113738201008"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x4e957bBC61AFDab63263fFdbAF201F6f596E3e2D",
+      "value": "90343135023643809077"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x4e957bBC61AFDab63263fFdbAF201F6f596E3e2D",
+      "group": "0x580F29aB04b7ED4E5aA86584D38c9317d9CF0358",
+      "validatorPayment": "90343135023643809077",
+      "groupPayment": "10038126113738201008"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x7194DFE766a92308880A943fD70F31c8E7c50e66",
+      "value": "10052081721513748253"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x4FC4EA624db2E4A1d6195a03744D505CbcD9431b",
+      "value": "90468735493623734282"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x4FC4EA624db2E4A1d6195a03744D505CbcD9431b",
+      "group": "0x7194DFE766a92308880A943fD70F31c8E7c50e66",
+      "validatorPayment": "90468735493623734282",
+      "groupPayment": "10052081721513748253"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x90b056B00952d71bC7866c067b49f5b062098ac9",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x90b056B00952d71bC7866c067b49f5b062098ac9",
+      "group": "0x01b2b83fDf26aFC3Ca7062C35Bc68c8DdE56dB04",
+      "validatorPayment": "100520817215137482535",
+      "groupPayment": "0"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xDdc60B465c204Aa7358cE4f009D2dBC65af5C4B4",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xDdc60B465c204Aa7358cE4f009D2dBC65af5C4B4",
+      "group": "0x01b2b83fDf26aFC3Ca7062C35Bc68c8DdE56dB04",
+      "validatorPayment": "100520817215137482535",
+      "groupPayment": "0"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x3DcF2ED8dC84a63FfD2bfDc3CDb2fA0B1aeAfE5c",
+      "value": "10052079749801939395"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x5F2E4e239bCD86e1cf97538Ea7D5E2Ec639a3Bc4",
+      "value": "90468717748217454558"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x5F2E4e239bCD86e1cf97538Ea7D5E2Ec639a3Bc4",
+      "group": "0x3DcF2ED8dC84a63FfD2bfDc3CDb2fA0B1aeAfE5c",
+      "validatorPayment": "90468717748217454558",
+      "groupPayment": "10052079749801939395"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x7b3859147B1C173FfF7182E58A4Ec81C1d287224",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x7b3859147B1C173FfF7182E58A4Ec81C1d287224",
+      "group": "0xFaa0b40645Ee5E8D9AE38393e8cDF8e5baA71d13",
+      "validatorPayment": "100520817215137482535",
+      "groupPayment": "0"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xDaDBd6Cfb29b054aDC9c4c2Ef0F21f0BBdb44871",
+      "value": "100492315551982559673"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x089B1654325CcE14fb3e2dABCa2803bc489e83e7",
+      "group": "0xDaDBd6Cfb29b054aDC9c4c2Ef0F21f0BBdb44871",
+      "validatorPayment": "0",
+      "groupPayment": "100492315551982559673"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x5402172E972b31Fc9F0383F53f45823Ab5037379",
+      "value": "10052071808718697033"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xe5F947368C986DFe7a025B9B35deE3e5AC3a330e",
+      "value": "90468646278468273303"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xe5F947368C986DFe7a025B9B35deE3e5AC3a330e",
+      "group": "0x5402172E972b31Fc9F0383F53f45823Ab5037379",
+      "validatorPayment": "90468646278468273303",
+      "groupPayment": "10052071808718697033"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x35aE10F412503aBcf9275133613E8df7f56E72Be",
+      "value": "100493647056175630462"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x43fbd2B45Ef5C042F821D24E14933C570e05Ef78",
+      "group": "0x35aE10F412503aBcf9275133613E8df7f56E72Be",
+      "validatorPayment": "0",
+      "groupPayment": "100493647056175630462"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x35aE10F412503aBcf9275133613E8df7f56E72Be",
+      "value": "100380020322396742052"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xadBE75cBD14f92BA2D233b6b81E80D4634fAbB2a",
+      "group": "0x35aE10F412503aBcf9275133613E8df7f56E72Be",
+      "validatorPayment": "0",
+      "groupPayment": "100380020322396742052"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x35aE10F412503aBcf9275133613E8df7f56E72Be",
+      "value": "100498524150617080762"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x1F15d4210e34DfeeEc087C906b426509da1b01f1",
+      "group": "0x35aE10F412503aBcf9275133613E8df7f56E72Be",
+      "validatorPayment": "0",
+      "groupPayment": "100498524150617080762"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xbf55dF76204f00AcF296F76cF4Aaf86A866a5eb0",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xc627459BFc70cD7B6719d5b8030C3beA7825CA7e",
+      "group": "0xbf55dF76204f00AcF296F76cF4Aaf86A866a5eb0",
+      "validatorPayment": "0",
+      "groupPayment": "100520817215137482535"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x35aE10F412503aBcf9275133613E8df7f56E72Be",
+      "value": "100498597193717087873"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x112fF12927CD6f924d80b9Aba32E531733B602fF",
+      "group": "0x35aE10F412503aBcf9275133613E8df7f56E72Be",
+      "validatorPayment": "0",
+      "groupPayment": "100498597193717087873"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xbf55dF76204f00AcF296F76cF4Aaf86A866a5eb0",
+      "value": "99901433855006132885"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x6e5a2624Ae582c96c5A12Eb168afA532a85AE829",
+      "group": "0xbf55dF76204f00AcF296F76cF4Aaf86A866a5eb0",
+      "validatorPayment": "0",
+      "groupPayment": "99901433855006132885"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xA432da0Ed5A2c15cbc681227cCec3b375908FdCB",
+      "value": "100300855923551737375"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xdb2e80840f40033761A5cdFa3B09fE24f95a4aaa",
+      "group": "0xA432da0Ed5A2c15cbc681227cCec3b375908FdCB",
+      "validatorPayment": "0",
+      "groupPayment": "100300855923551737375"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xDaDBd6Cfb29b054aDC9c4c2Ef0F21f0BBdb44871",
+      "value": "100497223787300735634"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x30e0bfC25Df7642ee19Ff4fbCbE9ddeA4D1935bc",
+      "group": "0xDaDBd6Cfb29b054aDC9c4c2Ef0F21f0BBdb44871",
+      "validatorPayment": "0",
+      "groupPayment": "100497223787300735634"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x81cef0668e15639D0b101bdc3067699309D73BED",
+      "value": "7537796164887077913"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x5098A28bFa2Da3183E36C009c7D63093b66441a5",
+      "value": "92966152700273960930"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x5098A28bFa2Da3183E36C009c7D63093b66441a5",
+      "group": "0x81cef0668e15639D0b101bdc3067699309D73BED",
+      "validatorPayment": "92966152700273960930",
+      "groupPayment": "7537796164887077913"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xCc4B2Bcbbc9639ef1E91F47acfD12Bd131525e79",
+      "value": "10003833998543727581"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x45d8170f30b0d408196Ab0e14AF47D77b18f0A38",
+      "value": "90034505986893548232"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x45d8170f30b0d408196Ab0e14AF47D77b18f0A38",
+      "group": "0xCc4B2Bcbbc9639ef1E91F47acfD12Bd131525e79",
+      "validatorPayment": "90034505986893548232",
+      "groupPayment": "10003833998543727581"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x6CF4bB9ff947610944c6D8E0E5Ea26B1dEa73196",
+      "value": "10052081721495654506"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x249eF45381b29D9955b365C33F202127499B873f",
+      "value": "90468735493460890558"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x249eF45381b29D9955b365C33F202127499B873f",
+      "group": "0x6CF4bB9ff947610944c6D8E0E5Ea26B1dEa73196",
+      "validatorPayment": "90468735493460890558",
+      "groupPayment": "10052081721495654506"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xDaDBd6Cfb29b054aDC9c4c2Ef0F21f0BBdb44871",
+      "value": "94600532820734387132"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xC3957f7848d6b09DCb29d784036B0A302555E75b",
+      "group": "0xDaDBd6Cfb29b054aDC9c4c2Ef0F21f0BBdb44871",
+      "validatorPayment": "0",
+      "groupPayment": "94600532820734387132"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xDaDBd6Cfb29b054aDC9c4c2Ef0F21f0BBdb44871",
+      "value": "80896842891559638392"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x31cAF587f96B7C6fC8f33eB07ad854A21Eec64D9",
+      "group": "0xDaDBd6Cfb29b054aDC9c4c2Ef0F21f0BBdb44871",
+      "validatorPayment": "0",
+      "groupPayment": "80896842891559638392"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x602B65795BCc64b2fb329AC004236E194f077158",
+      "value": "100520806280000485861"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xB29438f402da218180bBa79fbc0fAdD3e9E151aa",
+      "group": "0x602B65795BCc64b2fb329AC004236E194f077158",
+      "validatorPayment": "0",
+      "groupPayment": "100520806280000485861"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x81AE1C73A326325216E25ff1af9EA3871195036E",
+      "value": "5026040860756874126"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xFE38631E7E164D20754387F7165B9C5b427dA17B",
+      "value": "95494776354380608409"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xFE38631E7E164D20754387F7165B9C5b427dA17B",
+      "group": "0x81AE1C73A326325216E25ff1af9EA3871195036E",
+      "validatorPayment": "95494776354380608409",
+      "groupPayment": "5026040860756874126"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xc24baeac0Fd189637112B7e33d22FfF2730aF993",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x4D540eC31F9CC5b1d10a329EB4Eddf52CB3dC000",
+      "group": "0xc24baeac0Fd189637112B7e33d22FfF2730aF993",
+      "validatorPayment": "0",
+      "groupPayment": "100520817215137482535"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x95aE59515915D6c493a846aE022F93726652b50A",
+      "value": "50259210983217251227"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x9C542c0B5aF5e04E2D1e67cf1fC176E91bC18dA0",
+      "value": "50259210983217251228"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x9C542c0B5aF5e04E2D1e67cf1fC176E91bC18dA0",
+      "group": "0x95aE59515915D6c493a846aE022F93726652b50A",
+      "validatorPayment": "50259210983217251228",
+      "groupPayment": "50259210983217251227"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xDdbca691842FD452d8F53575FdFdC2314eb3AD57",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xDdbca691842FD452d8F53575FdFdC2314eb3AD57",
+      "group": "0xc8A81D473992c7c6D3F469A8263F24914625709d",
+      "validatorPayment": "100520817215137482535",
+      "groupPayment": "0"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xD72Ed2e3db984bAC3bB351FE652200dE527eFfcf",
+      "value": "50260408607568741267"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x00A9e8869e40e038D0FaE63D825a732e6FfF48d1",
+      "value": "50260408607568741268"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x00A9e8869e40e038D0FaE63D825a732e6FfF48d1",
+      "group": "0xD72Ed2e3db984bAC3bB351FE652200dE527eFfcf",
+      "validatorPayment": "50260408607568741268",
+      "groupPayment": "50260408607568741267"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xbf55dF76204f00AcF296F76cF4Aaf86A866a5eb0",
+      "value": "90592739973421048132"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xaC6492D439b3b812e822d1e975338f48bDD0B1f2",
+      "group": "0xbf55dF76204f00AcF296F76cF4Aaf86A866a5eb0",
+      "validatorPayment": "0",
+      "groupPayment": "90592739973421048132"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xF0b25502595911b64de75F453b34557C1b2c4760",
+      "value": "100520662222380927629"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xF0b25502595911b64de75F453b34557C1b2c4760",
+      "group": "0x481EAdE762d6D0b49580189B78709c9347b395bf",
+      "validatorPayment": "100520662222380927629",
+      "groupPayment": "0"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x77eCf3c7AC7082344Edfee10e41Edb72fA3D1951",
+      "value": "100520722325647228247"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x77eCf3c7AC7082344Edfee10e41Edb72fA3D1951",
+      "group": "0xE141831c2c1198d79B9Ff61cD97C3bAca7F071E0",
+      "validatorPayment": "100520722325647228247",
+      "groupPayment": "0"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x0f66619058BB9675f3d394FCc2cE236a29901571",
+      "value": "50258622436234899361"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x28B5f40C3f5883021408Ce79F20FCf282E873236",
+      "value": "50258622436234899362"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x28B5f40C3f5883021408Ce79F20FCf282E873236",
+      "group": "0x0f66619058BB9675f3d394FCc2cE236a29901571",
+      "validatorPayment": "50258622436234899362",
+      "groupPayment": "50258622436234899361"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x8a12caB622B8093208931fA008D12D6Ba5AF47E4",
+      "value": "100504415284597659986"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x92aAe14a531086A665DAFF6eEdb5B71E00aCC6d1",
+      "group": "0x8a12caB622B8093208931fA008D12D6Ba5AF47E4",
+      "validatorPayment": "0",
+      "groupPayment": "100504415284597659986"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x12125D1b7f01F32b3A741A6b97CB46f714f273aA",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x12125D1b7f01F32b3A741A6b97CB46f714f273aA",
+      "group": "0x01b2b83fDf26aFC3Ca7062C35Bc68c8DdE56dB04",
+      "validatorPayment": "100520817215137482535",
+      "groupPayment": "0"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xF83C93ea360B66DDCD532960304948B1c10786a1",
+      "value": "20026300038174485836"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x1AB89Fa8bdBd48F4426379abeB59803DD5283E3F",
+      "value": "80105200152697943346"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x1AB89Fa8bdBd48F4426379abeB59803DD5283E3F",
+      "group": "0xF83C93ea360B66DDCD532960304948B1c10786a1",
+      "validatorPayment": "80105200152697943346",
+      "groupPayment": "20026300038174485836"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xDaDBd6Cfb29b054aDC9c4c2Ef0F21f0BBdb44871",
+      "value": "100493506262848986337"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xE6d00B30A16eB21D2c3b4367c90ddEB4097a78a5",
+      "group": "0xDaDBd6Cfb29b054aDC9c4c2Ef0F21f0BBdb44871",
+      "validatorPayment": "0",
+      "groupPayment": "100493506262848986337"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xbf55dF76204f00AcF296F76cF4Aaf86A866a5eb0",
+      "value": "100360426533007291893"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x7328B986cF7e7a1Baf62E257aAFa66abdA4109Ce",
+      "group": "0xbf55dF76204f00AcF296F76cF4Aaf86A866a5eb0",
+      "validatorPayment": "0",
+      "groupPayment": "100360426533007291893"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x89d5bd54C43dDd10905A030DE6Ff02EbB6c51654",
+      "value": "99305076531390629949"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x8CC5De79fC6C21531577F7B3d62c8413FB3bd303",
+      "group": "0x89d5bd54C43dDd10905A030DE6Ff02EbB6c51654",
+      "validatorPayment": "0",
+      "groupPayment": "99305076531390629949"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x89d5bd54C43dDd10905A030DE6Ff02EbB6c51654",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xcED2449cCd1aae8077eC0670224e663CE19C8Fc4",
+      "group": "0x89d5bd54C43dDd10905A030DE6Ff02EbB6c51654",
+      "validatorPayment": "0",
+      "groupPayment": "100520817215137482535"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x47b2dB6af05a55d42Ed0F3731735F9479ABF0673",
+      "value": "100517465279550240179"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x1d511366FEB1ed330925B2D51645bb5c607EA6D4",
+      "group": "0x47b2dB6af05a55d42Ed0F3731735F9479ABF0673",
+      "validatorPayment": "0",
+      "groupPayment": "100517465279550240179"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x47b2dB6af05a55d42Ed0F3731735F9479ABF0673",
+      "value": "100520180863661076832"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x5282F82f82E9a74E186b8Ee18cc76808b78DC383",
+      "group": "0x47b2dB6af05a55d42Ed0F3731735F9479ABF0673",
+      "validatorPayment": "0",
+      "groupPayment": "100520180863661076832"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x47b2dB6af05a55d42Ed0F3731735F9479ABF0673",
+      "value": "100444727579286505470"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xAB0C16BBd78D6b9F4503D81D859A3FFB64486F9A",
+      "group": "0x47b2dB6af05a55d42Ed0F3731735F9479ABF0673",
+      "validatorPayment": "0",
+      "groupPayment": "100444727579286505470"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x2fd49E97262D505Fd76BB6E0e06eC10e1fd54589",
+      "value": "10049786150901660913"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x233c06EDc757003cA4ec078012F517F21A24C55c",
+      "value": "90448075358114948221"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x233c06EDc757003cA4ec078012F517F21A24C55c",
+      "group": "0x2fd49E97262D505Fd76BB6E0e06eC10e1fd54589",
+      "validatorPayment": "90448075358114948221",
+      "groupPayment": "10049786150901660913"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x3753096ad5e8E390C05324B9ca2B1856A3182B48",
+      "value": "10052056351945253478"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xbe505Db3e26655cd0a5488f396E391BFA523BeA4",
+      "value": "90468507167507281305"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xbe505Db3e26655cd0a5488f396E391BFA523BeA4",
+      "group": "0x3753096ad5e8E390C05324B9ca2B1856A3182B48",
+      "validatorPayment": "90468507167507281305",
+      "groupPayment": "10052056351945253478"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xCc4B2Bcbbc9639ef1E91F47acfD12Bd131525e79",
+      "value": "10006459430668206590"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xc8D1Dc1Ac8E0Ac039a8b1284ef687d557F812E5c",
+      "value": "90058134876013859316"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xc8D1Dc1Ac8E0Ac039a8b1284ef687d557F812E5c",
+      "group": "0xCc4B2Bcbbc9639ef1E91F47acfD12Bd131525e79",
+      "validatorPayment": "90058134876013859316",
+      "groupPayment": "10006459430668206590"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x7e11E85faA97652623929c9677E442e219cE0BbD",
+      "value": "1004525373780996046"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x54F10A9aaF1031149F4e43A9AB3aC1fe42651a84",
+      "value": "99448012004318608587"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x54F10A9aaF1031149F4e43A9AB3aC1fe42651a84",
+      "group": "0x7e11E85faA97652623929c9677E442e219cE0BbD",
+      "validatorPayment": "99448012004318608587",
+      "groupPayment": "1004525373780996046"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x44a7Af700ACa1B24ECdB818dF4D202772D606Cb4",
+      "value": "92938848221845247033"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x44a7Af700ACa1B24ECdB818dF4D202772D606Cb4",
+      "group": "0x0339Df3FE4f5ccC864EAE8491E5c8AEc4611A631",
+      "validatorPayment": "92938848221845247033",
+      "groupPayment": "0"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x71dcC67baEECd9308e341359f70B782D9C3565b8",
+      "value": "10052081721513748253"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xe51662a4448cc9994Df7B28E4F0b38D678958B0D",
+      "value": "90468735493623734282"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xe51662a4448cc9994Df7B28E4F0b38D678958B0D",
+      "group": "0x71dcC67baEECd9308e341359f70B782D9C3565b8",
+      "validatorPayment": "90468735493623734282",
+      "groupPayment": "10052081721513748253"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x8580dB53C3ebC56230662B771ceF2707E92Ef83A",
+      "value": "10052081720726670254"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xF2aADf8fF2Ad7e5C1efb0d45Cb622618BA6636A7",
+      "value": "90468735486540032293"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xF2aADf8fF2Ad7e5C1efb0d45Cb622618BA6636A7",
+      "group": "0x8580dB53C3ebC56230662B771ceF2707E92Ef83A",
+      "validatorPayment": "90468735486540032293",
+      "groupPayment": "10052081720726670254"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xb35Be22BccB0dB9dC62967dcF15fEB97C20f854e",
+      "value": "50260408607568741267"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x48aC52662CBF32f8FC0cd8c1122c7560b482c2AD",
+      "value": "50260408607568741268"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x48aC52662CBF32f8FC0cd8c1122c7560b482c2AD",
+      "group": "0xb35Be22BccB0dB9dC62967dcF15fEB97C20f854e",
+      "validatorPayment": "50260408607568741268",
+      "groupPayment": "50260408607568741267"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x7e11E85faA97652623929c9677E442e219cE0BbD",
+      "value": "1005192943301244725"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x25f57B3343646196aeeFa69c106BBe3E3Ba8fD8A",
+      "value": "99514101386823227781"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x25f57B3343646196aeeFa69c106BBe3E3Ba8fD8A",
+      "group": "0x7e11E85faA97652623929c9677E442e219cE0BbD",
+      "validatorPayment": "99514101386823227781",
+      "groupPayment": "1005192943301244725"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xD19FB36B7F433fe13820767ef6d0E26FDbaB68CC",
+      "value": "50260408607568741267"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x758d1000fB3d37F88cE3BA880882898a3B0ca3aB",
+      "value": "50260408607568741268"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x758d1000fB3d37F88cE3BA880882898a3B0ca3aB",
+      "group": "0xD19FB36B7F433fe13820767ef6d0E26FDbaB68CC",
+      "validatorPayment": "50260408607568741268",
+      "groupPayment": "50260408607568741267"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x7C75B0B81A54359E9dCCDa9cb663ca2e3De6B710",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x206296BeffFB68fCE658535D443c732892162005",
+      "group": "0x7C75B0B81A54359E9dCCDa9cb663ca2e3De6B710",
+      "validatorPayment": "0",
+      "groupPayment": "100520817215137482535"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x7C75B0B81A54359E9dCCDa9cb663ca2e3De6B710",
+      "value": "100520817211880608057"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x6ac7E3D0BDeb78ddcF3d9b15208B50C08271C213",
+      "group": "0x7C75B0B81A54359E9dCCDa9cb663ca2e3De6B710",
+      "validatorPayment": "0",
+      "groupPayment": "100520817211880608057"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x07fa1874ad4655AD0C763a7876503509be11e29E",
+      "value": "9946493336954501021"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x997490F08B9b99dB00657e2B1BbEc180Cf804A27",
+      "value": "89518440032590509193"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x997490F08B9b99dB00657e2B1BbEc180Cf804A27",
+      "group": "0x07fa1874ad4655AD0C763a7876503509be11e29E",
+      "validatorPayment": "89518440032590509193",
+      "groupPayment": "9946493336954501021"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x1D083BECFAac301B4B845d0E5B80A9Da5F6DE946",
+      "value": "100512299539903820888"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x00751D4E4861aDFFddDFCa5eC27703797A3B9349",
+      "group": "0x1D083BECFAac301B4B845d0E5B80A9Da5F6DE946",
+      "validatorPayment": "0",
+      "groupPayment": "100512299539903820888"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x8493BD3De67AC341D4cC11531f96a1A2cdBf29aD",
+      "value": "100520804860455557219"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x1AEF9bf15de73aDBA318FC8aEa3D2f45d120CC8A",
+      "group": "0x8493BD3De67AC341D4cC11531f96a1A2cdBf29aD",
+      "validatorPayment": "0",
+      "groupPayment": "100520804860455557219"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x0861a61Bf679A30680510EcC238ee43B82C5e843",
+      "value": "99609553662479586510"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x1C13efCBaeCCC17D41F4a23Da5CAC15167675B96",
+      "group": "0x0861a61Bf679A30680510EcC238ee43B82C5e843",
+      "validatorPayment": "0",
+      "groupPayment": "99609553662479586510"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x35aE10F412503aBcf9275133613E8df7f56E72Be",
+      "value": "100358493979414498860"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x48dE6c6668c24e5Bd113d5C46d813C50fE2204D1",
+      "group": "0x35aE10F412503aBcf9275133613E8df7f56E72Be",
+      "validatorPayment": "0",
+      "groupPayment": "100358493979414498860"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x8851F4852ce427191Dc8D9065d720619889e3260",
+      "value": "10041990119964510476"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x399b3D48Fdcd668d274afc6F4be05475A325C6c6",
+      "value": "90377911079680594287"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x399b3D48Fdcd668d274afc6F4be05475A325C6c6",
+      "group": "0x8851F4852ce427191Dc8D9065d720619889e3260",
+      "validatorPayment": "90377911079680594287",
+      "groupPayment": "10041990119964510476"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x7C75B0B81A54359E9dCCDa9cb663ca2e3De6B710",
+      "value": "100004591989015262190"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xAb98b3C66Fb538c90359191067a5eA3aF8e5739B",
+      "group": "0x7C75B0B81A54359E9dCCDa9cb663ca2e3De6B710",
+      "validatorPayment": "0",
+      "groupPayment": "100004591989015262190"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x1D083BECFAac301B4B845d0E5B80A9Da5F6DE946",
+      "value": "100359026969455914906"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x4aF806c873eb793EA95EF59811964F1Bde05Fb89",
+      "group": "0x1D083BECFAac301B4B845d0E5B80A9Da5F6DE946",
+      "validatorPayment": "0",
+      "groupPayment": "100359026969455914906"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x21FB4411FA5828344c2788aB07D4cc12a12571b9",
+      "value": "100492821475406753046"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x8d1A5eF84252586f0f841a9fCF4E31f23c4c21E0",
+      "group": "0x21FB4411FA5828344c2788aB07D4cc12a12571b9",
+      "validatorPayment": "0",
+      "groupPayment": "100492821475406753046"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x81383e7C8801B102f742f4F5a5faD06867212b05",
+      "value": "100243922874441248492"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xB6A0DB24dD1a20183584Cde5dD883F4BB3Ae068c",
+      "group": "0x81383e7C8801B102f742f4F5a5faD06867212b05",
+      "validatorPayment": "0",
+      "groupPayment": "100243922874441248492"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x4dA92da1afbf103F2B52DD29326e34C98cA1E78c",
+      "value": "100520817214323263916"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xb2728EDcc9c255C2D053Ea6Cae31cFd584B758D3",
+      "group": "0x4dA92da1afbf103F2B52DD29326e34C98cA1E78c",
+      "validatorPayment": "0",
+      "groupPayment": "100520817214323263916"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x4dA92da1afbf103F2B52DD29326e34C98cA1E78c",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xFcE0779607246eb5121a5A4192D6AC4A758C217D",
+      "group": "0x4dA92da1afbf103F2B52DD29326e34C98cA1E78c",
+      "validatorPayment": "0",
+      "groupPayment": "100520817215137482535"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x81383e7C8801B102f742f4F5a5faD06867212b05",
+      "value": "99822231854369188482"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x35A5A989151683215Ec36898bB4497f524556B69",
+      "group": "0x81383e7C8801B102f742f4F5a5faD06867212b05",
+      "validatorPayment": "0",
+      "groupPayment": "99822231854369188482"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x4dA92da1afbf103F2B52DD29326e34C98cA1E78c",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x394B846E0eCf83Ef350A2A7Ccb7Be0C6552e7cBC",
+      "group": "0x4dA92da1afbf103F2B52DD29326e34C98cA1E78c",
+      "validatorPayment": "0",
+      "groupPayment": "100520817215137482535"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x81383e7C8801B102f742f4F5a5faD06867212b05",
+      "value": "96140627818906863658"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xdfBf9Cc8dBc04b9C07f292Bb9147c14dDf4152B7",
+      "group": "0x81383e7C8801B102f742f4F5a5faD06867212b05",
+      "validatorPayment": "0",
+      "groupPayment": "96140627818906863658"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x81383e7C8801B102f742f4F5a5faD06867212b05",
+      "value": "100468689595569153362"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x4a8FA59c7e41204445B756E521A591a75e57528C",
+      "group": "0x81383e7C8801B102f742f4F5a5faD06867212b05",
+      "validatorPayment": "0",
+      "groupPayment": "100468689595569153362"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x21FB4411FA5828344c2788aB07D4cc12a12571b9",
+      "value": "95132333109438383997"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xDF9121AFFb220e9095C875a79c3D1fA3EBEE4105",
+      "group": "0x21FB4411FA5828344c2788aB07D4cc12a12571b9",
+      "validatorPayment": "0",
+      "groupPayment": "95132333109438383997"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x81383e7C8801B102f742f4F5a5faD06867212b05",
+      "value": "84872313399537844451"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xa61486Fc99f22E5640c2D28Db78A721705Bd4158",
+      "group": "0x81383e7C8801B102f742f4F5a5faD06867212b05",
+      "validatorPayment": "0",
+      "groupPayment": "84872313399537844451"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x70FC0b021dFdBb9A106D1Ed8F35f59D3f23eCb7B",
+      "value": "50180872817194535042"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xFEc62490E50B1038aB91CeeDcb79e9E39269263B",
+      "value": "50180872817194535042"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xFEc62490E50B1038aB91CeeDcb79e9E39269263B",
+      "group": "0x70FC0b021dFdBb9A106D1Ed8F35f59D3f23eCb7B",
+      "validatorPayment": "50180872817194535042",
+      "groupPayment": "50180872817194535042"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x21FB4411FA5828344c2788aB07D4cc12a12571b9",
+      "value": "100518697053904301525"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x5b9F5239b10f1d74Ea89F88FE3d50db7eCD6e450",
+      "group": "0x21FB4411FA5828344c2788aB07D4cc12a12571b9",
+      "validatorPayment": "0",
+      "groupPayment": "100518697053904301525"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x69cd274C6AcBc08F664eD7B2D54aaB6615BC1d70",
+      "value": "100520519446160538939"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x8C1Bf342693772A04bB223EA949f915ebf72521A",
+      "group": "0x69cd274C6AcBc08F664eD7B2D54aaB6615BC1d70",
+      "validatorPayment": "0",
+      "groupPayment": "100520519446160538939"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x5e687A6A1017d4E199921fd01f2dA91f737837cA",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x5e687A6A1017d4E199921fd01f2dA91f737837cA",
+      "group": "0xFaa0b40645Ee5E8D9AE38393e8cDF8e5baA71d13",
+      "validatorPayment": "100520817215137482535",
+      "groupPayment": "0"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x580F29aB04b7ED4E5aA86584D38c9317d9CF0358",
+      "value": "10040022069380143361"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x53EE2F047A2F12a2d0792a33BBA1F20396f8d590",
+      "value": "90360198624421290251"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x53EE2F047A2F12a2d0792a33BBA1F20396f8d590",
+      "group": "0x580F29aB04b7ED4E5aA86584D38c9317d9CF0358",
+      "validatorPayment": "90360198624421290251",
+      "groupPayment": "10040022069380143361"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x6CF4bB9ff947610944c6D8E0E5Ea26B1dEa73196",
+      "value": "10052081721513748253"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xbE9636559C4a6cA9571A4aEFb33f1C4439cc6e78",
+      "value": "90468735493623734282"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xbE9636559C4a6cA9571A4aEFb33f1C4439cc6e78",
+      "group": "0x6CF4bB9ff947610944c6D8E0E5Ea26B1dEa73196",
+      "validatorPayment": "90468735493623734282",
+      "groupPayment": "10052081721513748253"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x34649AdA2cB44D851a2103Feaa8922DedDABfc1c",
+      "value": "33907684738916590256"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xe34CD052e59fF830b286a125c52Dde568AC8BD48",
+      "group": "0x34649AdA2cB44D851a2103Feaa8922DedDABfc1c",
+      "validatorPayment": "0",
+      "groupPayment": "33907684738916590256"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x2AF540161Cbeb58FdC99b159c76E390598860510",
+      "value": "100158602345480966238"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x5c886DA5e3B0e63f979633bDEB2a17bE49f2e829",
+      "group": "0x2AF540161Cbeb58FdC99b159c76E390598860510",
+      "validatorPayment": "0",
+      "groupPayment": "100158602345480966238"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x54D0D2E0F1cC1D7fb21e2350F14d79A1237605D1",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x54D0D2E0F1cC1D7fb21e2350F14d79A1237605D1",
+      "group": "0xe92B7BA8497486e94bb59C51F595b590c4a5f894",
+      "validatorPayment": "100520817215137482535",
+      "groupPayment": "0"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x067e453918f2c44D937b05a7eE9DBFB804C54ADd",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xFEA3a9f2b28E9EeA5EB14bE130c7C79459B2AA5e",
+      "group": "0x067e453918f2c44D937b05a7eE9DBFB804C54ADd",
+      "validatorPayment": "0",
+      "groupPayment": "100520817215137482535"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x067e453918f2c44D937b05a7eE9DBFB804C54ADd",
+      "value": "100464997762338441018"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x9018F223B37bEe553721eD0bc93435239129C8E6",
+      "group": "0x067e453918f2c44D937b05a7eE9DBFB804C54ADd",
+      "validatorPayment": "0",
+      "groupPayment": "100464997762338441018"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x0d4f8cEA48cDaDEAe345431577a64983c0535B12",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x2bDc5CcdA08A7F821ae0Df72B5Fda60Cd58d6353",
+      "group": "0x0d4f8cEA48cDaDEAe345431577a64983c0535B12",
+      "validatorPayment": "0",
+      "groupPayment": "100520817215137482535"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xB33e9e01E561a1Da60f7Cb42508500e571afb6Eb",
+      "value": "100519670359714336644"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x07adF41F00dD7Ec9C63c445f3faD5cCbdc2a7c85",
+      "group": "0xB33e9e01E561a1Da60f7Cb42508500e571afb6Eb",
+      "validatorPayment": "0",
+      "groupPayment": "100519670359714336644"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xB33e9e01E561a1Da60f7Cb42508500e571afb6Eb",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x0F412760759a2fAD4f07ceE36bfdAa218814DE89",
+      "group": "0xB33e9e01E561a1Da60f7Cb42508500e571afb6Eb",
+      "validatorPayment": "0",
+      "groupPayment": "100520817215137482535"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x0861a61Bf679A30680510EcC238ee43B82C5e843",
+      "value": "100502898996836248412"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xd818F03476eF422BedDF720adDf5B3D3fd8353FE",
+      "group": "0x0861a61Bf679A30680510EcC238ee43B82C5e843",
+      "validatorPayment": "0",
+      "groupPayment": "100502898996836248412"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x15Ed3f6b79F5Fb9Ef1D99D37314Dd626b3005F0b",
+      "value": "40208325479121406100"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x943e9a5c750adcc467575F4fE81bf6b1C3A2aeD7",
+      "value": "60312488218682109150"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x943e9a5c750adcc467575F4fE81bf6b1C3A2aeD7",
+      "group": "0x15Ed3f6b79F5Fb9Ef1D99D37314Dd626b3005F0b",
+      "validatorPayment": "60312488218682109150",
+      "groupPayment": "40208325479121406100"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xB87f2354E34B26ba6406Ac60EA99DCD8cd5e63Bf",
+      "value": "40208326886054993014"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xea11740878D662A4d4e9b9f0c7C04378ACf1E869",
+      "value": "60312490329082489521"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xea11740878D662A4d4e9b9f0c7C04378ACf1E869",
+      "group": "0xB87f2354E34B26ba6406Ac60EA99DCD8cd5e63Bf",
+      "validatorPayment": "60312490329082489521",
+      "groupPayment": "40208326886054993014"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x8eB004daD9397B8f23E1279905c584920000756D",
+      "value": "10052081721513748253"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x474df04481f778b46Fc71204C72B6A8BE396F0FF",
+      "value": "90468735493623734282"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x474df04481f778b46Fc71204C72B6A8BE396F0FF",
+      "group": "0x8eB004daD9397B8f23E1279905c584920000756D",
+      "validatorPayment": "90468735493623734282",
+      "groupPayment": "10052081721513748253"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x8eB004daD9397B8f23E1279905c584920000756D",
+      "value": "10052081721513748253"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x307d958d9f0235058fE0a7e7e717A63d5aD6B143",
+      "value": "90468735493623734282"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x307d958d9f0235058fE0a7e7e717A63d5aD6B143",
+      "group": "0x8eB004daD9397B8f23E1279905c584920000756D",
+      "validatorPayment": "90468735493623734282",
+      "groupPayment": "10052081721513748253"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x4A34787893C8E26411bE77259fE7FA184D471d9A",
+      "value": "100508923922587094381"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x4E3c453b4897451E6f84C6869f533cA04250259a",
+      "group": "0x4A34787893C8E26411bE77259fE7FA184D471d9A",
+      "validatorPayment": "0",
+      "groupPayment": "100508923922587094381"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x0E912990472bfe5948B5b7333Ecf528D5dA887cF",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x0c7610F8F4dA332C77c9800012009CcfA48F23e4",
+      "group": "0x0E912990472bfe5948B5b7333Ecf528D5dA887cF",
+      "validatorPayment": "0",
+      "groupPayment": "100520817215137482535"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xd25c6a9FEf4744E8d4F90Bf6bdFAF7686909d799",
+      "value": "100347664726844910121"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x989F3F2684F96B8cDeC308B4E7538A5a062890f0",
+      "group": "0xd25c6a9FEf4744E8d4F90Bf6bdFAF7686909d799",
+      "validatorPayment": "0",
+      "groupPayment": "100347664726844910121"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xb434FeB47D6154B4B4058DF5C9fCeD123dB9aBF6",
+      "value": "10042359885526269605"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xe17B899D1Ba93249BE07aFa6ca670FE165Bc5d17",
+      "value": "90381238969736426448"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xe17B899D1Ba93249BE07aFa6ca670FE165Bc5d17",
+      "group": "0xb434FeB47D6154B4B4058DF5C9fCeD123dB9aBF6",
+      "validatorPayment": "90381238969736426448",
+      "groupPayment": "10042359885526269605"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x15Ed3f6b79F5Fb9Ef1D99D37314Dd626b3005F0b",
+      "value": "40208315892945630635"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xa2393Abeeea68558C70Ac8641C442F096e0530D4",
+      "value": "60312473839418445953"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xa2393Abeeea68558C70Ac8641C442F096e0530D4",
+      "group": "0x15Ed3f6b79F5Fb9Ef1D99D37314Dd626b3005F0b",
+      "validatorPayment": "60312473839418445953",
+      "groupPayment": "40208315892945630635"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x5e941E767C56364602043573Cd55365E89489070",
+      "value": "61576993055468074493"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xA9086800a41785EB6bFC48c1DcB3191C11A318fA",
+      "group": "0x5e941E767C56364602043573Cd55365E89489070",
+      "validatorPayment": "0",
+      "groupPayment": "61576993055468074493"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x5e941E767C56364602043573Cd55365E89489070",
+      "value": "61576993055468074493"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0xCF8f9a7a589A882f6331e795d38ad584bFdef4d2",
+      "group": "0x5e941E767C56364602043573Cd55365E89489070",
+      "validatorPayment": "0",
+      "groupPayment": "61576993055468074493"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x5e941E767C56364602043573Cd55365E89489070",
+      "value": "61576993055468074493"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x6cd5382592A34a0645881E623ed5BeD2E10A53BC",
+      "group": "0x5e941E767C56364602043573Cd55365E89489070",
+      "validatorPayment": "0",
+      "groupPayment": "61576993055468074493"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x5e941E767C56364602043573Cd55365E89489070",
+      "value": "61576993055468074493"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x23417206f7049b57cc701Ca82215F7C1427E09c1",
+      "group": "0x5e941E767C56364602043573Cd55365E89489070",
+      "validatorPayment": "0",
+      "groupPayment": "61576993055468074493"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo Dollar (cUSD)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x0d4f8cEA48cDaDEAe345431577a64983c0535B12",
+      "value": "100520817215137482535"
+    },
+    "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Validators",
+    "eventName": "ValidatorEpochPaymentDistributed",
+    "args": {
+      "validator": "0x0EBdCCD9091EFB1243417bDf3aDdd63132962586",
+      "group": "0x0d4f8cEA48cDaDEAe345431577a64983c0535B12",
+      "validatorPayment": "0",
+      "groupPayment": "100520817215137482535"
+    },
+    "address": "0xaeb865bca93ddc8f47b8e29f40c5399ce34d0c58",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo native asset (CELO)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9",
+      "value": "20667802330518366241379"
+    },
+    "address": "0x471ece3750da237f93b8e339c536989b8978a438",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo native asset (CELO)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972",
+      "value": "16655047357452905377242"
+    },
+    "address": "0x471ece3750da237f93b8e339c536989b8978a438",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x614B7654ba0cC6000ABe526779911b70C1F7125A",
+      "value": "272181190189407619896"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xC7d5409fEe80B3Ac37Dbc111664dC511a5982469",
+      "value": "265994854553923672678"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x3D451dd723797b3DE938C5B22412032B6452591A",
+      "value": "276365772800741706395"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xc64DF5Be250264bf2888591D87cdeB13BFADC501",
+      "value": "272529818243912453914"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x01b2b83fDf26aFC3Ca7062C35Bc68c8DdE56dB04",
+      "value": "1358832562826680601094"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x82f8Bcf96f24BA60Ef041D192c7CE04C907E2fb8",
+      "value": "254985210837068734710"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xF83C93ea360B66DDCD532960304948B1c10786a1",
+      "value": "441497144933604598415"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xAcdf897493A6000dbe256791E8A2beCbb405FD4F",
+      "value": "266553538468608975373"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x061E9958028dcAa66fd8B255AD95194203b6c4Da",
+      "value": "368107002899013173006"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xA432da0Ed5A2c15cbc681227cCec3b375908FdCB",
+      "value": "433782303809009704982"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x580F29aB04b7ED4E5aA86584D38c9317d9CF0358",
+      "value": "362136356723046880760"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x7194DFE766a92308880A943fD70F31c8E7c50e66",
+      "value": "529624183714770093426"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x3DcF2ED8dC84a63FfD2bfDc3CDb2fA0B1aeAfE5c",
+      "value": "275315662720435734997"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xFaa0b40645Ee5E8D9AE38393e8cDF8e5baA71d13",
+      "value": "365191930583171283491"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xDaDBd6Cfb29b054aDC9c4c2Ef0F21f0BBdb44871",
+      "value": "1292792444776958030305"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x5402172E972b31Fc9F0383F53f45823Ab5037379",
+      "value": "253508040851604727347"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x35aE10F412503aBcf9275133613E8df7f56E72Be",
+      "value": "1086285328826352847905"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xbf55dF76204f00AcF296F76cF4Aaf86A866a5eb0",
+      "value": "1076602728204296277556"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x81cef0668e15639D0b101bdc3067699309D73BED",
+      "value": "428769583137171851735"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xCc4B2Bcbbc9639ef1E91F47acfD12Bd131525e79",
+      "value": "467409184088829633639"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x6CF4bB9ff947610944c6D8E0E5Ea26B1dEa73196",
+      "value": "357000610023262217570"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x602B65795BCc64b2fb329AC004236E194f077158",
+      "value": "268512680407293448952"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x81AE1C73A326325216E25ff1af9EA3871195036E",
+      "value": "298534760109775668462"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xc24baeac0Fd189637112B7e33d22FfF2730aF993",
+      "value": "278192180691641351716"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x95aE59515915D6c493a846aE022F93726652b50A",
+      "value": "254031596950548118798"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xc8A81D473992c7c6D3F469A8263F24914625709d",
+      "value": "285402895462678314043"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xD72Ed2e3db984bAC3bB351FE652200dE527eFfcf",
+      "value": "364751033771911582461"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x481EAdE762d6D0b49580189B78709c9347b395bf",
+      "value": "346144684965488791802"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xE141831c2c1198d79B9Ff61cD97C3bAca7F071E0",
+      "value": "269129288296013594684"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x0f66619058BB9675f3d394FCc2cE236a29901571",
+      "value": "274284748108753386423"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x8a12caB622B8093208931fA008D12D6Ba5AF47E4",
+      "value": "336235739391193424687"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x89d5bd54C43dDd10905A030DE6Ff02EbB6c51654",
+      "value": "404169726820464409183"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x47b2dB6af05a55d42Ed0F3731735F9479ABF0673",
+      "value": "677895846083853666190"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x2fd49E97262D505Fd76BB6E0e06eC10e1fd54589",
+      "value": "322773764750228040452"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x3753096ad5e8E390C05324B9ca2B1856A3182B48",
+      "value": "358607419611186296687"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x7e11E85faA97652623929c9677E442e219cE0BbD",
+      "value": "838312194993367089423"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x0339Df3FE4f5ccC864EAE8491E5c8AEc4611A631",
+      "value": "287259074016723375125"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x71dcC67baEECd9308e341359f70B782D9C3565b8",
+      "value": "255959520736196105618"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x8580dB53C3ebC56230662B771ceF2707E92Ef83A",
+      "value": "268628239514346238100"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xb35Be22BccB0dB9dC62967dcF15fEB97C20f854e",
+      "value": "291806711290779124573"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xD19FB36B7F433fe13820767ef6d0E26FDbaB68CC",
+      "value": "264928885285511228030"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x7C75B0B81A54359E9dCCDa9cb663ca2e3De6B710",
+      "value": "579066004860911019930"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x07fa1874ad4655AD0C763a7876503509be11e29E",
+      "value": "267585546922247791058"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x1D083BECFAac301B4B845d0E5B80A9Da5F6DE946",
+      "value": "384392325074781678346"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x8493BD3De67AC341D4cC11531f96a1A2cdBf29aD",
+      "value": "274072610546768821394"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x0861a61Bf679A30680510EcC238ee43B82C5e843",
+      "value": "396903790732918199145"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x8851F4852ce427191Dc8D9065d720619889e3260",
+      "value": "201237958139913558369"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x21FB4411FA5828344c2788aB07D4cc12a12571b9",
+      "value": "656307870479726062560"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x81383e7C8801B102f742f4F5a5faD06867212b05",
+      "value": "1086694695612056374058"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x4dA92da1afbf103F2B52DD29326e34C98cA1E78c",
+      "value": "1121729823820050012476"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x70FC0b021dFdBb9A106D1Ed8F35f59D3f23eCb7B",
+      "value": "264270799215776303594"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x69cd274C6AcBc08F664eD7B2D54aaB6615BC1d70",
+      "value": "252210894530248087419"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x34649AdA2cB44D851a2103Feaa8922DedDABfc1c",
+      "value": "68035876010290230479"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x2AF540161Cbeb58FdC99b159c76E390598860510",
+      "value": "285893648860097609451"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xe92B7BA8497486e94bb59C51F595b590c4a5f894",
+      "value": "265087111923417117596"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x067e453918f2c44D937b05a7eE9DBFB804C54ADd",
+      "value": "383916300336378149935"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x0d4f8cEA48cDaDEAe345431577a64983c0535B12",
+      "value": "352658415245056379579"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xB33e9e01E561a1Da60f7Cb42508500e571afb6Eb",
+      "value": "421695601754204735252"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x15Ed3f6b79F5Fb9Ef1D99D37314Dd626b3005F0b",
+      "value": "369437124922013801499"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xB87f2354E34B26ba6406Ac60EA99DCD8cd5e63Bf",
+      "value": "259525218667378478776"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x8eB004daD9397B8f23E1279905c584920000756D",
+      "value": "393290622284111896375"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x4A34787893C8E26411bE77259fE7FA184D471d9A",
+      "value": "354467273528189834764"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x0E912990472bfe5948B5b7333Ecf528D5dA887cF",
+      "value": "170229540459280572538"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xd25c6a9FEf4744E8d4F90Bf6bdFAF7686909d799",
+      "value": "357783632770301364869"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0xb434FeB47D6154B4B4058DF5C9fCeD123dB9aBF6",
+      "value": "267318663423564599851"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Election",
+    "eventName": "EpochRewardsDistributedToVoters",
+    "args": {
+      "group": "0x5e941E767C56364602043573Cd55365E89489070",
+      "value": "769534552012811490419"
+    },
+    "address": "0x8d6677192144292870907e3fa8a5527fe55a7ff6",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo native asset (CELO)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0x6cC083Aed9e3ebe302A6336dBC7c921C9f03349E",
+      "value": "27854372346602318244335"
+    },
+    "address": "0x471ece3750da237f93b8e339c536989b8978a438",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  },
+  {
+    "name": "Celo native asset (CELO)",
+    "eventName": "Transfer",
+    "args": {
+      "from": "0x0000000000000000000000000000000000000000",
+      "to": "0xCe10d577295d34782815919843a3a4ef70Dc33ce",
+      "value": "66620189429811621508"
+    },
+    "address": "0x471ece3750da237f93b8e339c536989b8978a438",
+    "transactionHash": "0x44c19839072e62ebd7879528723e957ce326ddb7ca9ef4fe7abd30246a32ee81"
+  }
+]
