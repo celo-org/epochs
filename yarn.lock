@@ -7,6 +7,11 @@
   resolved "https://registry.yarnpkg.com/@adraffy/ens-normalize/-/ens-normalize-1.9.4.tgz#aae21cb858bbb0411949d5b7b3051f4209043f62"
   integrity sha512-UK0bHA7hh9cR39V+4gl2/NnBBjoXIxkuWAPCaY4X7fbH4L/azIi7ilWOCjMUYfpJgraLUAqkRi2BqrjME8Rynw==
 
+"@celo/abis@^9.0.6":
+  version "9.0.6"
+  resolved "https://registry.yarnpkg.com/@celo/abis/-/abis-9.0.6.tgz#3586f578394cb0408f17335cdaedf98fd9f47d7c"
+  integrity sha512-w/zQWAnJMUfthiFyzUoSKgZ1DQDKjXaSmImwGRDi6U9SPyEx5rWsHm7tsoVXoxYzAdPbtpkeFykQPvPqCJfHmA==
+
 "@celo/base@^5.0.5":
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/@celo/base/-/base-5.0.5.tgz#b4102faba080ce536411b7987259d9ca152b6e6d"
