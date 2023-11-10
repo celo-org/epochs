@@ -86,22 +86,90 @@ async function getEpochDistributions() {
                     transactionHash: tx.transactionHash,
                 };
             });
+        /* 
+        Example output `decodedEvents`:
+
+        [{
+            "name": "Celo Dollar (cUSD)",
+            "eventName": "Transfer",
+            "args": {
+            "from": "0x5b66c7BebbC7A2c57F95a42D55d8e3F5C7BbE5c9",
+            "to": "0x792dd70b5f3AF90B35bF305C5E1908FbbB4011c8",
+            "value": "8000000000000000000"
+            },
+            "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+            "transactionHash": "0xee125fb08de2d16dff50a908acfbaaa57f6e2ca7c6bf2fdc9e48f9f32a3afb9b"
+        },
+        {
+            "name": "Celo Dollar (cUSD)",
+            "eventName": "Transfer",
+            "args": {
+            "from": "0x5b66c7BebbC7A2c57F95a42D55d8e3F5C7BbE5c9",
+            "to": "0xcD437749E43A154C07F3553504c68fBfD56B8778",
+            "value": "225702748128608"
+            },
+            "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+            "transactionHash": "0xee125fb08de2d16dff50a908acfbaaa57f6e2ca7c6bf2fdc9e48f9f32a3afb9b"
+        },]
+        */
+
+        const groupedEvents: { [key: string]: any } = {};
+        decodedEvents.forEach(event => {
+            const key = `${event.eventName}-${event.address}`;
+            if (!groupedEvents[key]) {
+                groupedEvents[key] = {
+                    name: event.name,
+                    eventName: event.eventName,
+                    address: event.address,
+                    events: []
+                };
+            }
+            groupedEvents[key].events.push({
+                ...event.args,
+                transactionHash: event.transactionHash
+            });
+        });
+        const groupedEventsArray = Object.values(groupedEvents);
+        /* 
+        Example output `groupedEventsArray`:
+
+        ```json
+        [
+            {
+                "name": "Celo Dollar (cUSD)",
+                "eventName": "Transfer",
+                "address": "0x765de816845861e75a25fca122bb6898b8b1282a",
+                "events": [
+                {
+                    "from": "0x5b66c7BebbC7A2c57F95a42D55d8e3F5C7BbE5c9",
+                    "to": "0x792dd70b5f3AF90B35bF305C5E1908FbbB4011c8",
+                    "value": "8000000000000000000",
+                    "transactionHash": "0xee125fb08de2d16dff50a908acfbaaa57f6e2ca7c6bf2fdc9e48f9f32a3afb9b"
+                },
+                {
+                    "from": "0x5b66c7BebbC7A2c57F95a42D55d8e3F5C7BbE5c9",
+                    "to": "0xcD437749E43A154C07F3553504c68fBfD56B8778",
+                    "value": "225702748128608",
+                    "transactionHash": "0xee125fb08de2d16dff50a908acfbaaa57f6e2ca7c6bf2fdc9e48f9f32a3afb9b"
+                },
+                // ...
+            },
+        ]
+        ```
+        */
 
         fs.writeFileSync(
             `./output/epoch${lastEpochNumber}.json`,
             JSON.stringify(
-                decodedEvents,
+                groupedEventsArray,
                 (key, value) =>
                     typeof value === "bigint" ? value.toString() : value,
                 2
             )
         );
-
     } catch (error) {
         console.log(error);
     }
 }
-
-
 
 getEpochDistributions();
