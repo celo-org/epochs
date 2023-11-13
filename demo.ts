@@ -162,6 +162,34 @@ async function getCarbonOffsetDistribution(epochNumber: bigint) {
     console.log(`Detail(s):`, logs, "\n");
 }
 
+async function getCommunityFundDistribution(epochNumber: bigint) {
+    const COMMUNITY_FUND_ADDRESS = "0xd533ca259b330c7a88f74e000a3faea2d63b7972";
+    const epochBlock = epochNumber * BLOCKS_PER_EPOCH;
+    const filter = await publicClient.createContractEventFilter({
+        address: "0x471ece3750da237f93b8e339c536989b8978a438", // CELO ERC20 contract address
+        abi: goldTokenABI,
+        eventName: "Transfer",
+        args: {
+            from: "0x0000000000000000000000000000000000000000",
+            to: COMMUNITY_FUND_ADDRESS,
+        },
+        fromBlock: epochBlock,
+        toBlock: epochBlock,
+    });
+    const logs = await publicClient.getFilterLogs({ filter });
+    console.log(
+        `Summary:`,
+        {
+            epoch: epochNumber,
+            name: "Community Fund Distribution",
+            value: `${formatEther(logs[0].args.value!)} CELO`,
+            to: COMMUNITY_FUND_ADDRESS,
+        },
+        "\n"
+    );
+    console.log(`Detail(s):`, logs, "\n");
+}
+
 async function playground() {
     try {
         const filter = await publicClient.createContractEventFilter({
@@ -182,4 +210,4 @@ async function playground() {
     }
 }
 
-getCarbonOffsetDistribution(1296n);
+getCommunityFundDistribution(1296n);
