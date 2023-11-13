@@ -1,5 +1,11 @@
 import fs from "fs";
-import { createPublicClient, decodeEventLog, http } from "viem";
+import {
+    createPublicClient,
+    decodeEventLog,
+    http,
+    parseAbiItem,
+    getAddress,
+} from "viem";
 import { celo } from "viem/chains";
 import {
     validatorsABI,
@@ -37,22 +43,22 @@ const CORECONTRACTS: CoreContracts = {
         abi: electionABI,
     },
 };
-const EPOCH_SIZE = 17280n;
+const BLOCKS_PER_EPOCH = 17280n;
+const publicClient = createPublicClient({
+    chain: celo,
+    transport: http(),
+});
 
 async function getEpochDistributions() {
-    const publicClient = createPublicClient({
-        chain: celo,
-        transport: http(),
-    });
     try {
         const currentBlockNumber = await publicClient.getBlockNumber();
         console.log(`Current block number: ${currentBlockNumber}`);
 
         const lastEpochBlockNumber =
-            currentBlockNumber - (currentBlockNumber % EPOCH_SIZE);
+            currentBlockNumber - (currentBlockNumber % BLOCKS_PER_EPOCH);
         console.log(`Last block of the last epoch: ${lastEpochBlockNumber}`);
 
-        const lastEpochNumber = lastEpochBlockNumber / EPOCH_SIZE;
+        const lastEpochNumber = lastEpochBlockNumber / BLOCKS_PER_EPOCH;
         console.log(`Last epoch number: ${lastEpochNumber}`);
 
         const lastEpochBlock = await publicClient.getBlock({
@@ -83,29 +89,31 @@ async function getEpochDistributions() {
             });
 
         const groupedEvents: { [key: string]: any } = {};
-        decodedEvents.forEach(event => {
+        decodedEvents.forEach((event) => {
             const key = `${event.eventName}-${event.address}`;
             if (!groupedEvents[key]) {
                 groupedEvents[key] = {
                     name: event.name,
                     eventName: event.eventName,
                     address: event.address,
-                    events: []
+                    events: [],
                 };
             }
             groupedEvents[key].events.push({
                 ...event.args,
-                transactionHash: event.transactionHash
+                transactionHash: event.transactionHash,
             });
         });
         const groupedEventsArray = Object.values(groupedEvents);
 
-        console.log(`${groupedEventsArray.length} distinct events:`)
+        console.log(`${groupedEventsArray.length} distinct events:`);
 
         // print the keys and number of event per key
-        groupedEventsArray.forEach(event => {
-            console.log(`${event.eventName} (${event.name}) - ${event.events.length} events`)
-        })
+        groupedEventsArray.forEach((event) => {
+            console.log(
+                `${event.eventName} (${event.name}) - ${event.events.length} events`
+            );
+        });
 
         fs.writeFileSync(
             `./output/epoch${lastEpochNumber}.json`,
@@ -121,4 +129,37 @@ async function getEpochDistributions() {
     }
 }
 
-getEpochDistributions();
+async function getVoterRewards(epochNumber: bigint) {
+    // TODO
+}
+
+async function playground() {
+    try {
+        const filter = await publicClient.createContractEventFilter({
+            address: "0x471ece3750da237f93b8e339c536989b8978a438", // CELO ERC20 contract address
+            abi: goldTokenABI,
+            eventName: "Transfer",
+            args: {
+                from: "0x0000000000000000000000000000000000000000",
+            },
+            fromBlock: 16330000n,
+            toBlock: 16330050n,
+        });
+        const logs = await publicClient.getFilterLogs({ filter });
+
+        // const logs = await publicClient.getLogs({
+        //     address: getAddress("0x471ece3750da237f93b8e339c536989b8978a438"),
+        //     event: parseAbiItem(
+        //         "event Transfer(address indexed from, address indexed to, uint256 value)"
+        //     ),
+        //     args: {
+        //         from: "0x0000000000000000000000000000000000000000",
+        //     },
+        // });
+        console.log(logs);
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+playground();
