@@ -5,6 +5,7 @@ import {
     http,
     parseAbiItem,
     getAddress,
+    formatEther,
 } from "viem";
 import { celo } from "viem/chains";
 import {
@@ -133,6 +134,34 @@ async function getVoterRewards(epochNumber: bigint) {
     // TODO
 }
 
+async function getCarbonOffsetDistribution(epochNumber: bigint) {
+    const CARBON_OFFSET_ADDRESS = "0xCe10d577295d34782815919843a3a4ef70Dc33ce";
+    const epochBlock = epochNumber * BLOCKS_PER_EPOCH;
+    const filter = await publicClient.createContractEventFilter({
+        address: "0x471ece3750da237f93b8e339c536989b8978a438", // CELO ERC20 contract address
+        abi: goldTokenABI,
+        eventName: "Transfer",
+        args: {
+            from: "0x0000000000000000000000000000000000000000",
+            to: CARBON_OFFSET_ADDRESS,
+        },
+        fromBlock: epochBlock,
+        toBlock: epochBlock,
+    });
+    const logs = await publicClient.getFilterLogs({ filter });
+    console.log(
+        `Summary:`,
+        {
+            epoch: epochNumber,
+            name: "Carbon Offset Distribution",
+            value: `${formatEther(logs[0].args.value!)} CELO`,
+            to: CARBON_OFFSET_ADDRESS,
+        },
+        "\n"
+    );
+    console.log(`Detail(s):`, logs, "\n");
+}
+
 async function playground() {
     try {
         const filter = await publicClient.createContractEventFilter({
@@ -147,19 +176,10 @@ async function playground() {
         });
         const logs = await publicClient.getFilterLogs({ filter });
 
-        // const logs = await publicClient.getLogs({
-        //     address: getAddress("0x471ece3750da237f93b8e339c536989b8978a438"),
-        //     event: parseAbiItem(
-        //         "event Transfer(address indexed from, address indexed to, uint256 value)"
-        //     ),
-        //     args: {
-        //         from: "0x0000000000000000000000000000000000000000",
-        //     },
-        // });
         console.log(logs);
     } catch (error) {
         console.log(error);
     }
 }
 
-playground();
+getCarbonOffsetDistribution(1296n);
