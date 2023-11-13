@@ -1,4 +1,11 @@
-# Prototype of a simple epoch rewards fetcher
+# Epoch distributions on Celo
+
+This repo contains an explainer on epoch distributions made on Celo and a demo to fetch distribution 
+data for a given epoch.
+
+> **IMPORTANT**
+> This repo is for educational purposes only. The information provided here may be inaccurate. 
+> Please don’t rely on it exclusively to implement low-level client libraries.
 
 ## Description
 
