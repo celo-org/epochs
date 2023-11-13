@@ -13,6 +13,21 @@ blocks. Every epoch is exactly 17,280 blocks or ~1 day long since a block is pro
 
 $5 \text{ seconds per block} \times 17280 \text{ blocks per epoch} = 86400 \text{ seconds per epoch } (= 1 \text{ day})$
 
+Every epoch, the Celo blockchain makes a distributions knows as "epoch distributions".
+These are: 
+
+-   Validator rewards
+-   Validator group rewards
+-   Voting rewards
+-   Community fund distributions
+-   Carbon offset distributions
+-   Mento reserve distributions (deprecated, since block `21616000`)
+
+In the past, the Celo blockchain also made _ad-hoc_ distributions to the Mento reserve whenever 
+the reserve was "low". This is no longer the case since 
+[CIP-54: Community rewards go to reserve if undercollaterized](https://github.com/celo-org/celo-proposals/blob/master/CIPs/cip-0054.md) 
+was implemented in the 
+[Gingerbread hard fork](https://github.com/celo-org/celo-proposals/blob/8260b49b2ec9a87ded6727fec7d9104586eb0752/CIPs/cip-0062.md#specification) on [Sep 26, 2023](https://forum.celo.org/t/mainnet-alfajores-gingerbread-hard-fork-release-sep-26-17-00-utc/6499), which removed the 
 
 
 ## Usage
