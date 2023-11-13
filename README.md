@@ -29,38 +29,48 @@ These are:
 
 Validators are rewarded for producing blocks.
 
-Todo: 
-
-- [ ] Add context and explainer
-- [ ] Add code example to fetch validator rewards for a given epoch
+> **NOTE**
+> This section is incomplete:
+> 
+> - [ ] Add context and explainer
+> - [ ] Add code example to fetch validator rewards for a given epoch
 
 ### Voting rewards ("staking rewards")
 
-Todo: 
-
-- [ ] Add context and explainer
-- [ ] Add code example to fetch voting rewards for a given epoch
+> **NOTE**
+> This section is incomplete:
+> 
+> - [ ] Add context and explainer
+> - [ ] Add code example to fetch voting rewards for a given epoch
 
 ### Community fund distributions
 
 The Celo blockchain makes distributions to the community fund every epoch.
 
-Todo: 
-
-- [ ] Add context and explainer
-- [ ] Add code example to fetch voting rewards for a given epoch
+> **NOTE**
+> This section is incomplete:
+> 
+> - [ ] Add context and explainer
+> - [ ] Add code example to fetch voting rewards for a given epoch
 
 
 ### Carbon offset distributions
 
-Todo: 
-
-- [ ] Add context and explainer
-- [ ] Add code example to fetch voting rewards for a given epoch
+> **NOTE**
+> This section is incomplete:
+> 
+> - [ ] Add context and explainer
+> - [ ] Add code example to fetch voting rewards for a given epoch
 
 The Celo blockchain makes distributions to the carbon offset fund every epoch.
 
 ### Mento reserve distributions (⚠️ deprecated)
+
+> **NOTE**
+> This section is incomplete:
+> 
+> - [ ] Add context and explainer
+> - [ ] Add code example to fetch reserve bolster distributions for a given epoch
 
 In the past, the Celo blockchain also made _ad-hoc_ distributions to the Mento reserve whenever 
 the reserve was "low". This is no longer the case since 
