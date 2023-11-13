@@ -72,7 +72,7 @@ was implemented in the
 ## Usage
 
 > **WARNING**
-> Currently the prototype doesn't work. 
+> The demos are work in progress and may not work as expected at the moment.
 
 ### Requirements
 
