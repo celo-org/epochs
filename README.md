@@ -43,6 +43,20 @@ Validators are rewarded for producing blocks.
 > - [ ] Add context and explainer
 > - [ ] Add code example to fetch voting rewards for a given epoch
 
+Voting rewards are implemented as follows:
+
+1.  Zero address transfers CELO to the validator group
+2.  The stake of every voter for the validator group is increased by their voting weight (double-check this is correct)
+
+For example, voter 
+[`0xbD5CAC...`](https://explorer.celo.org/mainnet/address/0xbD5CAC2afCC30D2c32e7A1AfdFa85E5F6bB22F98/epoch-transactions) votes for [`0x81383e...`](https://explorer.celo.org/mainnet/address/0x81383e7C8801B102f742f4F5a5faD06867212b05).
+
+
+
+```sol
+getTotalVotesForGroupByAccount
+```
+
 ### Community fund distributions
 
 The Celo blockchain makes distributions to the community fund every epoch.
