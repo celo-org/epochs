@@ -56,10 +56,9 @@ const epochTransactions = await publicClient.getLogs({
 
 As described, every epoch block contains Celo-specific transactions known as "epoch transactions".
 
-The list of epoch transactions is:
+High-level epoch transactions can grouped as follows:
 
-1.   Validator rewards
-1.   Validator group rewards
+1.   Validator and validator group rewards
 1.   Voter rewards
 1.   Community fund distributions
 1.   Carbon offset distributions
@@ -67,7 +66,7 @@ The list of epoch transactions is:
 
 Their purpose and how to fetch their logs is described below.
 
-### (1) Validator and (2) validator group rewards
+### Validator and validator group rewards
 
 Validators are rewarded for producing blocks.
 
@@ -77,7 +76,7 @@ Validators are rewarded for producing blocks.
 > -   [ ] Add context and explainer
 > -   [ ] Add code example to fetch validator rewards for a given epoch
 
-### (3) Voter rewards (or "staking rewards")
+### Voter rewards (or "staking rewards")
 
 > **NOTE**
 > This section is incomplete:
@@ -97,7 +96,7 @@ For example, voter
 getTotalVotesForGroupByAccount
 ```
 
-### (4) Community fund distributions
+### Community fund distributions
 
 The Celo blockchain makes distributions to the community fund every epoch.
 
@@ -107,7 +106,7 @@ The Celo blockchain makes distributions to the community fund every epoch.
 > -   [ ] Add context and explainer
 > -   [ ] Add code example to fetch voting rewards for a given epoch
 
-### (5) Carbon offset distributions
+### Carbon offset distributions
 
 > **NOTE**
 > This section is incomplete:
@@ -117,7 +116,7 @@ The Celo blockchain makes distributions to the community fund every epoch.
 
 The Celo blockchain makes distributions to the carbon offset fund every epoch.
 
-### (6) Mento reserve distributions (⚠️ deprecated)
+### Mento reserve distributions (⚠️ deprecated)
 
 > **NOTE**
 > This section is incomplete:
