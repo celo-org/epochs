@@ -25,8 +25,9 @@ $17280 \text{ blocks per epoch} \times 5 \text{ seconds per block} = 86400 \text
 Every epoch, has what's known as an "epoch block", which is defined as follows:
 
 -   it's the last block of an epoch,
--   it contains "normal" transactions (as usual in every blocks)
--   it contains "epoch" transactions, which are special Celo-specific transactions described below.
+-   it contains "normal transactions" (as usual in every blocks)
+-   it contains **special** "epoch transactions", which are Celo-specific transactions described 
+    below.
 
 You can calculate the block number of a given epoch block as follows:
 
@@ -37,8 +38,8 @@ const epochBlockNumber = epochNumber * BLOCKS_PER_EPOCH;
 //    ^22,394,880        ^1,296        ^17,280
 ```
 
-You can fetch the logs of epoch transactions by fetching the logs of an epoch block.
-For example, using the `viem` client library:
+You can fetch the logs of epoch transactions by getting the logs of an epoch block using 
+the block hash. For example, using the `viem` client library:
 
 ```ts
 // Getting the block hash of an epoch block
