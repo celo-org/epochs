@@ -82,6 +82,37 @@ Validators are rewarded for producing blocks.
 
 ### Voter rewards (or "staking rewards")
 
+### Total voter rewards
+
+For a given epoch, total voter rewards can be calculated by summing the rewards distributed to 
+every validator group. This is because the Celo blockchain distributes rewards to validator groups,
+which then distribute rewards to their voters.
+
+The relevant event in the `Election.sol` smart contract is: 
+
+```solidity
+event EpochRewardsDistributedToVoters(address indexed group, uint256 value);
+```
+
+For an example, see [`totalVoterRewards.ts`](./totalVoterRewards.ts) which is a simple script 
+that fetches and calculates total voter rewards for a given epoch.
+
+To ensure the script works as expected, you can compare the output with the total voter rewards
+displayed on the Celo block explorer, for example in 
+[epoch 1,302](https://explorer.celo.org/mainnet/block/0xe78f9bd66c087207f36dd5b0ef30704c788e2589827b3e39bb8cfc2cb56613ec/epoch-transactions).
+
+Example output:
+
+```sh
+$ yarn ts-node totalVoterRewards.ts
+yarn run v1.22.19
+$ /Users/arthur/Documents/0xarthurxyz/epochrewards/node_modules/.bin/ts-node totalVoterRewards.ts
+Total voter rewards: 27347.542717542173439382
+✨  Done in 1.26s.
+```
+
+### Individual voter rewards
+
 > **NOTE**
 > This section is incomplete:
 >
@@ -168,11 +199,11 @@ was implemented in the
 
 ### Requirements
 
--   Node.js
+-   Node.js v18.14.2
 
 ### Demo
 
 ```sh
 yarn
-yarn ts-node viem.ts
+yarn ts-node <file_name.ts> # e.g. yarn ts-node totalVoterRewards.ts
 ```
