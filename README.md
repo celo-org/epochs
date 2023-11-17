@@ -88,7 +88,7 @@ For a given epoch, total voter rewards can be calculated by summing the rewards 
 every validator group. This is because the Celo blockchain distributes rewards to validator groups,
 which then distribute rewards to their voters.
 
-The relevant event in the `Election.sol` smart contract is: 
+The relevant event in the [`Election.sol` smart contract](https://github.com/celo-org/celo-monorepo/blob/master/packages/protocol/contracts/governance/Election.sol#L145) is: 
 
 ```solidity
 event EpochRewardsDistributedToVoters(address indexed group, uint256 value);
