@@ -46,7 +46,7 @@ const epochBlock = await publicClient.getBlock({
 // Getting logs of the epock block using the block hash
 const epochTransactions = await publicClient.getLogs({
     blockHash: epochBlock.hash,
-}); 
+});
 ```
 
 > **NOTE**
@@ -58,11 +58,11 @@ As described, every epoch block contains Celo-specific transactions known as "ep
 
 High-level epoch transactions can grouped as follows:
 
-1.   Validator and validator group rewards
-1.   Voter rewards
-1.   Community fund distributions
-1.   Carbon offset distributions
-1.   Mento reserve distributions (deprecated, since block `21616000`)
+1.  Validator and validator group rewards
+1.  Voter rewards
+1.  Community fund distributions
+1.  Carbon offset distributions
+1.  Mento reserve distributions (deprecated, since block `21616000`)
 
 Their purpose and how to fetch their logs is described below.
 
@@ -94,6 +94,33 @@ For example, voter
 
 ```sol
 getTotalVotesForGroupByAccount
+```
+
+Votes can be fetched given a voter address and a validator group address.
+Unfortunately, there is no simple way to fetch all voter addresses for a given validator group.
+Instead the set of voters must be constructed by filtering voting events from genesis to today.
+
+The following voting events are emitted:
+
+```solidity
+event ValidatorGroupVoteCast(address indexed account, address indexed group, uint256 value);
+event ValidatorGroupVoteActivated(
+    address indexed account,
+    address indexed group,
+    uint256 value,
+    uint256 units
+);
+event ValidatorGroupPendingVoteRevoked(
+    address indexed account,
+    address indexed group,
+    uint256 value
+);
+event ValidatorGroupActiveVoteRevoked(
+    address indexed account,
+    address indexed group,
+    uint256 value,
+    uint256 units
+);
 ```
 
 ### Community fund distributions
