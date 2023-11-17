@@ -1,5 +1,8 @@
 # Epoch distributions on Celo
 
+> **WARNING**
+> This repo is work in progress and may not work as expected at the moment.
+
 This repo contains an explainer on epoch distributions made on Celo and a demo to fetch distribution
 data for a given epoch.
 
