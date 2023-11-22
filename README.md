@@ -26,7 +26,7 @@ Every epoch, has what's known as an "epoch block", which is defined as follows:
 
 -   it's the last block of an epoch,
 -   it contains "normal transactions" (as usual in every blocks)
--   it contains **special** "epoch transactions", which are Celo-specific transactions described 
+-   it contains **special** "epoch transactions", which are Celo-specific transactions described
     below.
 
 You can calculate the block number of a given epoch block as follows:
@@ -38,7 +38,7 @@ const epochBlockNumber = epochNumber * BLOCKS_PER_EPOCH;
 //    ^22,394,880        ^1,296        ^17,280
 ```
 
-You can fetch the logs of epoch transactions by getting the logs of an epoch block using 
+You can fetch the logs of epoch transactions by getting the logs of an epoch block using
 the block hash. For example, using the `viem` client library:
 
 ```ts
@@ -84,21 +84,21 @@ Validators are rewarded for producing blocks.
 
 ### Total voter rewards
 
-For a given epoch, total voter rewards can be calculated by summing the rewards distributed to 
+For a given epoch, total voter rewards can be calculated by summing the rewards distributed to
 every validator group. This is because the Celo blockchain distributes rewards to validator groups,
 which then distribute rewards to their voters.
 
-The relevant event in the [`Election.sol` smart contract](https://github.com/celo-org/celo-monorepo/blob/master/packages/protocol/contracts/governance/Election.sol#L145) is: 
+The relevant event in the [`Election.sol` smart contract](https://github.com/celo-org/celo-monorepo/blob/master/packages/protocol/contracts/governance/Election.sol#L145) is:
 
 ```solidity
 event EpochRewardsDistributedToVoters(address indexed group, uint256 value);
 ```
 
-For an example, see [`totalVoterRewards.ts`](./totalVoterRewards.ts) which is a simple script 
+For an example, see [`totalVoterRewards.ts`](./totalVoterRewards.ts) which is a simple script
 that fetches and calculates total voter rewards for a given epoch.
 
 To ensure the script works as expected, you can compare the output with the total voter rewards
-displayed on the Celo block explorer, for example in 
+displayed on the Celo block explorer, for example in
 [epoch 1,302](https://explorer.celo.org/mainnet/block/0xe78f9bd66c087207f36dd5b0ef30704c788e2589827b3e39bb8cfc2cb56613ec/epoch-transactions).
 
 Example output:
@@ -170,13 +170,58 @@ The Celo blockchain makes distributions to the community fund every epoch.
 
 ### Carbon offset distributions
 
+The Celo blockchain makes distributions to the carbon offset fund every epoch.
+
+For an example, see [`carbonOffsetDistributions.ts`](./carbonOffsetDistributions.ts) which is a
+simple script that fetches and calculates carbon offset distributions for a given epoch.
+
+To ensure the script works as expected, you can compare the output with the carbon offset
+distributions displayed on the Celo block explorer, for example in
+[epoch 1,307](https://explorer.celo.org/mainnet/block/0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30/epoch-transactions).
+
+```sh
+~/Documents/celo-org/epochs main $ yarn ts-node carbonOffsetDistributions.ts
+yarn run v1.22.19
+$ /Users/arthur/Documents/celo-org/epochs/node_modules/.bin/ts-node carbonOffsetDistributions.ts
+Summary: {
+  epoch: 1307n,
+  name: 'Carbon Offset Distribution',
+  value: '67.673452139150741651 CELO',
+  to: '0xCe10d577295d34782815919843a3a4ef70Dc33ce'
+}
+
+Detail(s): [
+  {
+    address: '0x471ece3750da237f93b8e339c536989b8978a438',
+    topics: [
+      '0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef',
+      '0x0000000000000000000000000000000000000000000000000000000000000000',
+      '0x000000000000000000000000ce10d577295d34782815919843a3a4ef70dc33ce'
+    ],
+    data: '0x000000000000000000000000000000000000000000000003ab28662bd67a9093',
+    blockNumber: 22584960n,
+    transactionHash: '0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30',
+    transactionIndex: 7,
+    blockHash: '0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30',
+    logIndex: 446,
+    removed: false,
+    args: {
+      from: '0x0000000000000000000000000000000000000000',
+      to: '0xCe10d577295d34782815919843a3a4ef70Dc33ce',
+      value: 67673452139150741651n
+    },
+    eventName: 'Transfer'
+  }
+]
+
+✨  Done in 1.61s.
+```
+
 > **NOTE**
 > This section is incomplete:
 >
-> -   [ ] Add context and explainer
-> -   [ ] Add code example to fetch voting rewards for a given epoch
-
-The Celo blockchain makes distributions to the carbon offset fund every epoch.
+> - [ ] The script is not tested on epochs where reserve bolster distributions were made,
+>       it's possible the `logIndex` needs to be used in that case.
 
 ### Mento reserve distributions (⚠️ deprecated)
 
