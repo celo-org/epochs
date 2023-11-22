@@ -1,5 +1,5 @@
 import { goldTokenABI } from "@celo/abis/types/wagmi";
-import { getEpochBlockNumber, publicClient } from "./demo";
+import { getEpochBlockNumber, publicClient } from "./utils";
 import { formatEther } from "viem";
 
 async function getCommunityFundDistribution(epochNumber: bigint) {

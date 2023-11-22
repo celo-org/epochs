@@ -1,5 +1,5 @@
 import { formatEther } from "viem";
-import { getEpochBlockNumber, publicClient } from "./demo";
+import { getEpochBlockNumber, publicClient } from "./utils";
 import { goldTokenABI } from "@celo/abis/types/wagmi";
 
 const CARBON_OFFSET_ADDRESS = "0xCe10d577295d34782815919843a3a4ef70Dc33ce";
