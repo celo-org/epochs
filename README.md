@@ -69,6 +69,54 @@ const decodedEvents = epochTransactions
     // ...
 ```
 
+The example output is shown below and in [`./output/epoch1307.json`](./output/epoch1307.json):
+
+```sh
+~/Documents/celo-org/epochs main $ yarn ts-node rawEpochLogs.ts
+yarn run v1.22.19
+$ /Users/arthur/Documents/celo-org/epochs/node_modules/.bin/ts-node rawEpochLogs.ts
+Summary: {
+  'Epoch number': 1307n,
+  'Epoch transactions': 447,
+  'Distinct events': 6
+} 
+
+Contract: EpochRewards 
+ Event: "TargetVotingYieldUpdated" 
+ Count: 1 events 
+
+
+Contract: Validators 
+ Event: "ValidatorScoreUpdated" 
+ Count: 110 events 
+
+
+Contract: Celo Dollar (cUSD) 
+ Event: "Transfer" 
+ Count: 148 events 
+
+
+Contract: Validators 
+ Event: "ValidatorEpochPaymentDistributed" 
+ Count: 110 events 
+
+
+Contract: Celo native asset (CELO) 
+ Event: "Transfer" 
+ Count: 4 events 
+
+
+Contract: Election 
+ Event: "EpochRewardsDistributedToVoters" 
+ Count: 65 events 
+
+
+For detailed logs, see: ./output/epoch1307.json
+✨  Done in 1.80s.
+```
+
+
+
 ### More details on epoch transactions
 
 At a high-level epoch transactions can grouped as follows:
