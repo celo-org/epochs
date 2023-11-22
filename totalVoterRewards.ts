@@ -1,6 +1,7 @@
 import { createPublicClient, http, formatEther, getContract } from "viem";
 import { celo } from "viem/chains";
 import { electionABI, registryABI } from "@celo/abis/types/wagmi";
+import { writeToJsonFile } from "./utils";
 
 const publicClient = createPublicClient({
     chain: celo,
@@ -27,6 +28,9 @@ async function getTotalVoterRewards(epochNumber: bigint) {
 
         // fetches logs
         const logs = await publicClient.getFilterLogs({ filter });
+
+        // writes logs to JSON file
+        writeToJsonFile("evt_epochRewardsDistributedToVoters", logs);
 
         // calculates total
         const total = formatEther(
