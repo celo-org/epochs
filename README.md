@@ -162,11 +162,53 @@ event ValidatorGroupActiveVoteRevoked(
 
 The Celo blockchain makes distributions to the community fund every epoch.
 
-> **NOTE**
-> This section is incomplete:
->
-> -   [ ] Add context and explainer
-> -   [ ] Add code example to fetch voting rewards for a given epoch
+The Celo blockchain makes distributions to the community fund every epoch.
+
+For an example, see [`communityFundDistributions.ts`](./communityFundDistributions.ts) which is a
+simple script that fetches and calculates community fund distributions for a given epoch.
+
+To ensure the script works as expected, you can compare the output with the community fund
+distributions displayed on the Celo block explorer, for example in 
+[epoch 1,307](https://explorer.celo.org/mainnet/block/0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30/epoch-transactions).
+
+```sh
+~/Documents/celo-org/epochs main $ yarn ts-node communityFundDistributions.ts 
+yarn run v1.22.19
+$ /Users/arthur/Documents/celo-org/epochs/node_modules/.bin/ts-node communityFundDistributions.ts
+Summary: {
+  epoch: 1307n,
+  name: 'Community Fund Distribution',
+  value: '16918.363034787685412848 CELO',
+  to: '0xd533ca259b330c7a88f74e000a3faea2d63b7972'
+} 
+
+Detail(s): [
+  {
+    address: '0x471ece3750da237f93b8e339c536989b8978a438',
+    topics: [
+      '0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef',
+      '0x0000000000000000000000000000000000000000000000000000000000000000',
+      '0x000000000000000000000000d533ca259b330c7a88f74e000a3faea2d63b7972'
+    ],
+    data: '0x0000000000000000000000000000000000000000000003952573c6cf73b12ff0',
+    blockNumber: 22584960n,
+    transactionHash: '0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30',
+    transactionIndex: 7,
+    blockHash: '0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30',
+    logIndex: 379,
+    removed: false,
+    args: {
+      from: '0x0000000000000000000000000000000000000000',
+      to: '0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972',
+      value: 16918363034787685412848n
+    },
+    eventName: 'Transfer'
+  }
+] 
+
+✨  Done in 1.60s.
+```
+
 
 ### Carbon offset distributions
 
