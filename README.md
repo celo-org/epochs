@@ -1,14 +1,11 @@
-# Epoch distributions on Celo
+# Epoch transactions on Celo
 
-> **WARNING**
-> This repo is work in progress and may not work as expected at the moment.
+This repo contains an explainer for Celo-specific epoch transactions and a demo for how to 
+fetch them given an epoch.
 
 > **IMPORTANT**
 > This repo is for educational purposes only. The information provided here may be inaccurate.
 > Please don’t rely on it exclusively to implement low-level client libraries.
-
-This repo contains an explainer for Celo-specific epoch transactions and a demo for how to 
-fetch them given an epoch.
 
 ### Epochs
 
