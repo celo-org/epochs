@@ -1,4 +1,4 @@
-# Epoch transactions on Celo
+# Epoch distributions on Celo
 
 This repo contains an explainer for Celo-specific epoch transactions and a demo for how to 
 fetch them given an epoch.
@@ -19,19 +19,18 @@ $17280 \text{ blocks per epoch} \times 5 \text{ seconds per block} = 86400 \text
 
 ### Epoch blocks
 
-Every epoch, has an "epoch block", which is the last block of an epoch and contains:
+Every epoch, has an "epoch block", which is the last block of the epoch and contains:
 
 -   "normal transactions" found in all blocks, and
 -   **special** "epoch transactions", which are Celo-specific transactions described
     below.
 
-You can find an epoch block number as follows:
+You can (deterministically) calculate an epoch block number as follows:
 
 ```ts
-const BLOCKS_PER_EPOCH = 17280; // defined in blockchain parameters
-const epochNumber = 1296; // epoch number of your choice
-const epochBlockNumber = epochNumber * BLOCKS_PER_EPOCH;
-//    ^22,394,880        ^1,296        ^17,280
+const BLOCKS_PER_EPOCH = 17280; // defined at blockchain-level
+const epochNumber = 1296; // <-- your choice
+const epochBlockNumber = epochNumber * BLOCKS_PER_EPOCH; // 22,394,880
 ```
 
 ### Epoch transactions
