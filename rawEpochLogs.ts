@@ -1,5 +1,10 @@
 import { decodeEventLog } from "viem";
-import { BLOCKS_PER_EPOCH, publicClient, writeToJsonFile } from "./utils";
+import {
+    BLOCKS_PER_EPOCH,
+    getEpochBlockNumber,
+    publicClient,
+    writeToJsonFile,
+} from "./utils";
 import {
     validatorsABI,
     epochRewardsABI,
@@ -39,27 +44,19 @@ const CORECONTRACTS: CoreContracts = {
 
 async function getEpochLogs(epochNumber: bigint) {
     try {
-        const currentBlockNumber = await publicClient.getBlockNumber();
-        console.log(`Current block number: ${currentBlockNumber}`);
-
-        const lastEpochBlockNumber =
-            currentBlockNumber - (currentBlockNumber % BLOCKS_PER_EPOCH);
-        console.log(`Last block of the last epoch: ${lastEpochBlockNumber}`);
-
-        const lastEpochNumber = lastEpochBlockNumber / BLOCKS_PER_EPOCH;
-        console.log(`Last epoch number: ${lastEpochNumber}`);
-
-        const lastEpochBlock = await publicClient.getBlock({
-            blockNumber: lastEpochBlockNumber,
+        // fetches epoch block hash
+        const { hash } = await publicClient.getBlock({
+            blockNumber: getEpochBlockNumber(epochNumber),
         });
 
+        // fetches block transactions
         const epochTransactions = await publicClient.getLogs({
-            blockHash: lastEpochBlock.hash,
+            blockHash: hash,
         });
-        console.log(`Number of epoch transactions:`, epochTransactions.length);
 
+        // filters out transactions that are not epoch logs
         const decodedEvents = epochTransactions
-            .filter((tx) => tx.address in CORECONTRACTS)
+            .filter((tx) => tx.transactionHash == tx.blockHash)
             .map((tx) => {
                 const decodedEvent = decodeEventLog({
                     abi: CORECONTRACTS[tx.address].abi,
@@ -76,7 +73,9 @@ async function getEpochLogs(epochNumber: bigint) {
                 };
             });
 
+        // groups events by contract for better readability
         const groupedEvents: { [key: string]: any } = {};
+
         decodedEvents.forEach((event) => {
             const key = `${event.eventName}-${event.address}`;
             if (!groupedEvents[key]) {
@@ -94,16 +93,30 @@ async function getEpochLogs(epochNumber: bigint) {
         });
         const groupedEventsArray = Object.values(groupedEvents);
 
-        console.log(`${groupedEventsArray.length} distinct events:`);
+        // Prints summary
+        console.log(
+            `Summary:`,
+            {
+                "Epoch number": epochNumber,
+                "Epoch transactions": epochTransactions.length,
+                "Distinct events": groupedEventsArray.length,
+            },
+            "\n"
+        );
 
-        // print the keys and number of event per key
         groupedEventsArray.forEach((event) => {
             console.log(
-                `${event.eventName} (${event.name}) - ${event.events.length} events`
+                `Contract: ${event.name} \n`,
+                `Event: "${event.eventName}" \n`,
+                `Count: ${event.events.length} events \n\n`
             );
         });
 
-        writeToJsonFile(`epoch${lastEpochNumber}`, groupedEventsArray);
+        // Writes logs to JSON file
+        writeToJsonFile(`epoch${epochNumber}`, groupedEventsArray);
+        console.log(
+            `For detailed logs, see: ./output/epoch${epochNumber}.json`
+        );
     } catch (error) {
         console.log(error);
     }
