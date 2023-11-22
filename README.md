@@ -3,12 +3,12 @@
 > **WARNING**
 > This repo is work in progress and may not work as expected at the moment.
 
-This repo contains an explainer on epoch distributions made on Celo and a demo to fetch distribution
-data for a given epoch.
-
 > **IMPORTANT**
 > This repo is for educational purposes only. The information provided here may be inaccurate.
 > Please don’t rely on it exclusively to implement low-level client libraries.
+
+This repo contains an explainer for Celo-specific epoch transactions and a demo for how to 
+fetch them given an epoch.
 
 ### Epochs
 
@@ -22,14 +22,13 @@ $17280 \text{ blocks per epoch} \times 5 \text{ seconds per block} = 86400 \text
 
 ### Epoch blocks
 
-Every epoch, has what's known as an "epoch block", which is defined as follows:
+Every epoch, has an "epoch block", which is the last block of an epoch and contains:
 
--   it's the last block of an epoch,
--   it contains "normal transactions" (as usual in every blocks)
--   it contains **special** "epoch transactions", which are Celo-specific transactions described
+-   "normal transactions" found in all blocks, and
+-   **special** "epoch transactions", which are Celo-specific transactions described
     below.
 
-You can calculate the block number of a given epoch block as follows:
+You can find an epoch block number as follows:
 
 ```ts
 const BLOCKS_PER_EPOCH = 17280; // defined in blockchain parameters
@@ -38,29 +37,45 @@ const epochBlockNumber = epochNumber * BLOCKS_PER_EPOCH;
 //    ^22,394,880        ^1,296        ^17,280
 ```
 
-You can fetch the logs of epoch transactions by getting the logs of an epoch block using
-the block hash. For example, using the `viem` client library:
-
-```ts
-// Getting the block hash of an epoch block
-const epochBlock = await publicClient.getBlock({
-    blockNumber: epochBlockNumber, // 22,394,880n
-});
-
-// Getting logs of the epock block using the block hash
-const epochTransactions = await publicClient.getLogs({
-    blockHash: epochBlock.hash,
-});
-```
-
-> **NOTE**
-> The logs contain _both_ "normal" transactions _and_ epoch transactions.
-
 ### Epoch transactions
 
-As described, every epoch block contains Celo-specific transactions known as "epoch transactions".
+As described, every "epoch block" contains special Celo-specific transactions known as 
+"epoch transactions".
 
-High-level epoch transactions can grouped as follows:
+You can distinguish epoch transactions from normal transactions because epoch transactions 
+set the transaction hash equal to the block hash, whereas normal transactions do not:
+
+- `normalTx.transactionHash != normalTx.blockHash`
+- `epochTx.transactionHash == epochTx.blockHash`
+
+> **NOTE**
+> An epoch block contains _both_ "normal" transactions _and_ epoch transactions.
+
+You can get epoch logs by fetching the logs of the entire epoch block (using the block hash),
+and filtering transactions whose block hash is equal to the transaction hash. 
+
+For an example, see [`rawEpochLogs.ts`](./rawEpochLogs.ts):
+
+```ts
+// fetches epoch block hash
+const { hash } = await publicClient.getBlock({
+    blockNumber: getEpochBlockNumber(epochNumber),
+});
+
+// fetches block transactions
+const epochTransactions = await publicClient.getLogs({
+    blockHash: hash,
+});
+
+// filters out transactions that are not epoch logs
+const decodedEvents = epochTransactions
+    .filter((tx) => tx.transactionHash == tx.blockHash)
+    // ...
+```
+
+### More details on epoch transactions
+
+At a high-level epoch transactions can grouped as follows:
 
 1.  Validator and validator group rewards
 1.  Voter rewards
