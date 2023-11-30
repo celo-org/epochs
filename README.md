@@ -44,10 +44,29 @@ transaction hash equal to the block hash, whereas normal transactions do not:
 
 > **NOTE** An epoch block contains _both_ "normal" transactions _and_ epoch transactions.
 
-You can get epoch logs by fetching the logs of the entire epoch block (using the block hash), and
-filtering transactions whose block hash is equal to the transaction hash.
+You can get epoch logs by fetching the logs of the entire epoch block (using the block hash or block
+number), and filtering transactions whose block hash is equal to the transaction hash.
 
-For an example, see [`rawEpochLogs.ts`](./rawEpochLogs.ts):
+For example, epoch 1,307 will be included in block 22,584,960 ($= 1307 \times 17280$) and can be
+fetched using the block number:
+
+```sh
+ $ curl https://forno.celo.org \
+  -X POST \
+  -H "Content-Type: application/json" \
+  --data '{"method":"eth_getLogs","params":[{"fromBlock": "0x1589e80", "toBlock": "0x1589e80"}],"id":1,"jsonrpc":"2.0"}'
+```
+
+where "0x1589e80" is "22584960" in decimal, or using the block hash:
+
+```sh
+$ curl https://forno.celo.org \
+  -X POST \
+  -H "Content-Type: application/json" \
+  --data '{"method":"eth_getLogs","params":[{"blockHash": "0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30"}],"id":1,"jsonrpc":"2.0"}'
+```
+
+For a TypeScript example, see [`rawEpochLogs.ts`](./rawEpochLogs.ts):
 
 ```ts
 // fetches epoch block hash
