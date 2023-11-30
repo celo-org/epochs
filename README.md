@@ -143,9 +143,9 @@ Their purpose and how to fetch their logs is described below.
 
 ### Validator rewards
 
-Validators are rewarded for producing blocks and, every epoch, the Celo blockchain distributes
-these rewards to them in cUSD. Of those rewards, a part goes to the group they are part of in 
-the form of a "[commission][2]". You can learn more about [validator groups and why they exist][1].
+Validators are rewarded for producing blocks and, every epoch, the Celo blockchain distributes these
+rewards to them in cUSD. Of those rewards, a part goes to the group they are part of in the form of
+a "[commission][2]". You can learn more about [validator groups and why they exist][1].
 
 The relevant event in the [`Validators.sol` smart contract][3] is:
 
@@ -176,7 +176,8 @@ For detailed logs, see: evt_ValidatorEpochPaymentDistributed.json
 
 [1]: https://docs.celo.org/protocol/pos/validator-groups#what-is-a-validator-group
 [2]: https://docs.celo.org/protocol/pos/validator-groups#group-share
-[3]: https://github.com/celo-org/celo-monorepo/blob/bfbec5720a5bf4f62b6eb1a6051dce8d0355b4a9/packages/protocol/contracts/governance/Validators.sol#L149
+[3]:
+    https://github.com/celo-org/celo-monorepo/blob/bfbec5720a5bf4f62b6eb1a6051dce8d0355b4a9/packages/protocol/contracts/governance/Validators.sol#L149
 
 ### Voter rewards (or "staking rewards")
 
@@ -212,61 +213,62 @@ Total voter rewards: 27347.542717542173439382
 
 ### Individual voter rewards
 
-Unfortunately, there is no simple way to fetch individual voter rewards for a given epoch using 
-event logs alone. That's because events are only emitted for voting rewards that are distributed to
-validator groups, and not for voting rewards that are distributed directly to voters.
+Unfortunately, there is no simple way to fetch individual voter rewards using event logs alone.
+That's because voter rewards are distributed to individuals _implicitly_ (without logs), and instead
+distributed to the group they vote for _explicitly_ (with `EpochRewardsDistributedToVoters` event).
 
 The mental model is that:
 
-- many voters vote for a validator group
-- all  CELO is summed and 
+-   individual voters vote for a validator group
+-   if elected, the validator group produces blocks
+-   all voter rewards are distributed at the validator group level (with _explicit_
+    `EpochRewardsDistributedToVoters` events)
+-   voters _implicitly_ receive voter rewards, because the number of voting CELO at the group level
+    increased (by the rewards), but their voting share of the group hasn't changed
+-   when voters decide to withdraw their CELO, they receive a number of CELO equal to their voting
+    share of the group, which includes the rewards distributed to the group.
 
-> **NOTE** This section is incomplete:
->
-> -   [ ] Add context and explainer
-> -   [ ] Add code example to fetch voting rewards for a given epoch
+**Advantage**: voting CELO automatically compound without user intervention.
 
-Voting rewards are implemented as follows:
+**Disadvantage**: individual voter rewards cannot be fetched using event logs alone (in the current
+implementation)
 
-1.  Zero address transfers CELO to the validator group
-2.  The stake of every voter for the validator group is increased by their voting weight
-    (double-check this is correct)
+Instead, individual voter rewards can be calculated by multiplying the voter's voting share of the
+group by the rewards distributed to the group. That means, given an epoch, individual voter rewards
+can only be calculated with knowledge of the voter's voting share of the group.
 
-For example, voter
-[`0xbD5CAC...`](https://explorer.celo.org/mainnet/address/0xbD5CAC2afCC30D2c32e7A1AfdFa85E5F6bB22F98/epoch-transactions)
-votes for
-[`0x81383e...`](https://explorer.celo.org/mainnet/address/0x81383e7C8801B102f742f4F5a5faD06867212b05).
+The voter's voting share of the group can be calculated as $ \text{voting share} =
+\frac{\text{individual's votes}}{\text{total group votes}} $. That means a voter's voting share can
+change _both_ because the individual's votes changed _and_ because the total group votes changed.
 
-```sol
-getTotalVotesForGroupByAccount
-```
-
-Votes can be fetched given a voter address and a validator group address. Unfortunately, there is no
-simple way to fetch all voter addresses for a given validator group. Instead the set of voters must
-be constructed by filtering voting events from genesis to today.
-
-The following voting events are emitted:
+We can use the following events to calculate a voter's votes and the total group votes over time:
 
 ```solidity
-event ValidatorGroupVoteCast(address indexed account, address indexed group, uint256 value);
 event ValidatorGroupVoteActivated(
-    address indexed account,
-    address indexed group,
-    uint256 value,
-    uint256 units
-);
-event ValidatorGroupPendingVoteRevoked(
-    address indexed account,
-    address indexed group,
-    uint256 value
+  address indexed account,
+  address indexed group,
+  uint256 value,
+  uint256 units
 );
 event ValidatorGroupActiveVoteRevoked(
-    address indexed account,
-    address indexed group,
-    uint256 value,
-    uint256 units
+  address indexed account,
+  address indexed group,
+  uint256 value,
+  uint256 units
 );
 ```
+
+Given an epoch, all activate votes (that were not revoked during the epoch) are eligible for
+rewards. The simplest way to identify eligible voters is to count active votes at the end of an
+epoch, that means at the epoch block.
+
+> **NOTE** This section is incomplete:
+> TODO:
+> -   [ ] Check: Is that at the epoch block or epoch block - 1?
+
+Using logs alone, active votes can only be calculated by fetching activation
+(`ValidatorGroupVoteActivated`) and revocation (`ValidatorGroupActiveVoteRevoked`) events from
+genesis (block 0) to the epoch of interest.
 
 ### Community fund distributions
 
