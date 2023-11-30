@@ -87,9 +87,8 @@ const decodedEvents = epochTransactions.filter((tx) => tx.transactionHash == tx.
 The example output is shown below and in [`./output/epoch1307.json`](./output/epoch1307.json):
 
 ```sh
-~/Documents/celo-org/epochs main $ yarn ts-node rawEpochLogs.ts
-yarn run v1.22.19
-$ /Users/arthur/Documents/celo-org/epochs/node_modules/.bin/ts-node rawEpochLogs.ts
+$ yarn ts-node rawEpochLogs.ts
+
 Summary: {
   'Epoch number': 1307n,
   'Epoch transactions': 447,
@@ -144,12 +143,40 @@ Their purpose and how to fetch their logs is described below.
 
 ### Validator and validator group rewards
 
-Validators are rewarded for producing blocks.
+Validators are rewarded for producing blocks and, every epoch, the Celo blockchain distributes
+these rewards in cUSD. A share of validator rewards goes to the group they are part of in the form
+of a "[commission][2]". You can learn more about [validator groups and why they exist][1].
 
-> **NOTE** This section is incomplete:
->
-> -   [ ] Add context and explainer
-> -   [ ] Add code example to fetch validator rewards for a given epoch
+The relevant event in the [`Validators.sol` smart contract][3] is:
+
+```solidity
+event ValidatorEpochPaymentDistributed(
+  address indexed validator,
+  uint256 validatorPayment,
+  address indexed group,
+  uint256 groupPayment
+);
+```
+
+It shows the validator and group addresses, and the amount of cUSD distributed to each.
+
+For an example, see [`validatorRewards.ts`](./validatorRewards.ts) which is a simple script that
+fetches and calculates total validator and validator group rewards for a given epoch.
+
+Example output:
+
+```sh
+$ yarn ts-node validatorRewards.ts
+
+Total validator rewards: 4271.18813692596407949
+Total validator group rewards: 6426.74597902813248148
+For detailed logs, see: evt_ValidatorEpochPaymentDistributed.json
+✨  Done in 1.70s.
+```
+
+[1]: https://docs.celo.org/protocol/pos/validator-groups#what-is-a-validator-group
+[2]: https://docs.celo.org/protocol/pos/validator-groups#group-share
+[3]: https://github.com/celo-org/celo-monorepo/blob/bfbec5720a5bf4f62b6eb1a6051dce8d0355b4a9/packages/protocol/contracts/governance/Validators.sol#L149
 
 ### Voter rewards (or "staking rewards")
 
@@ -178,8 +205,7 @@ Example output:
 
 ```sh
 $ yarn ts-node totalVoterRewards.ts
-yarn run v1.22.19
-$ /Users/arthur/Documents/0xarthurxyz/epochrewards/node_modules/.bin/ts-node totalVoterRewards.ts
+
 Total voter rewards: 27347.542717542173439382
 ✨  Done in 1.26s.
 ```
@@ -247,9 +273,8 @@ distributions displayed on the Celo block explorer, for example in
 [epoch 1,307](https://explorer.celo.org/mainnet/block/0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30/epoch-transactions).
 
 ```sh
-~/Documents/celo-org/epochs main $ yarn ts-node communityFundDistributions.ts
-yarn run v1.22.19
-$ /Users/arthur/Documents/celo-org/epochs/node_modules/.bin/ts-node communityFundDistributions.ts
+$ yarn ts-node communityFundDistributions.ts
+
 Summary: {
   epoch: 1307n,
   name: 'Community Fund Distribution',
@@ -296,9 +321,8 @@ distributions displayed on the Celo block explorer, for example in
 [epoch 1,307](https://explorer.celo.org/mainnet/block/0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30/epoch-transactions).
 
 ```sh
-~/Documents/celo-org/epochs main $ yarn ts-node carbonOffsetDistributions.ts
-yarn run v1.22.19
-$ /Users/arthur/Documents/celo-org/epochs/node_modules/.bin/ts-node carbonOffsetDistributions.ts
+$ yarn ts-node carbonOffsetDistributions.ts
+
 Summary: {
   epoch: 1307n,
   name: 'Carbon Offset Distribution',
