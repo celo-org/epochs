@@ -10,16 +10,9 @@ const publicClient = createPublicClient({
 
 async function getTotalVoterRewards(epochNumber: bigint) {
     try {
-        // configures contract
-        const electionContract = getContract({
-            address: await getCoreContractAddress("Election"),
-            abi: electionABI,
-            publicClient,
-        });
-
         // configures log filter
         const filter = await publicClient.createContractEventFilter({
-            address: "0x8d6677192144292870907e3fa8a5527fe55a7ff6", // Election Proxy contract
+            address: await getCoreContractAddress("Election"), // Election Proxy contract
             abi: electionABI,
             eventName: "EpochRewardsDistributedToVoters",
             fromBlock: getEpochBlockNumber(epochNumber),
