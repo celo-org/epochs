@@ -237,9 +237,10 @@ Instead, individual voter rewards can be calculated by multiplying the voter's v
 group by the rewards distributed to the group. That means, given an epoch, individual voter rewards
 can only be calculated with knowledge of the voter's voting share of the group.
 
-The voter's voting share of the group can be calculated as $ \text{voting share} =
-\frac{\text{individual's votes}}{\text{total group votes}} $. That means a voter's voting share can
-change _both_ because the individual's votes changed _and_ because the total group votes changed.
+The voter's voting share of the group can be calculated as
+$\text{voting share} = \frac{\text{individual's votes}}{\text{total group votes}}$. That means a
+voter's voting share can change _both_ because the individual's votes changed _and_ because the
+total group votes changed.
 
 We can use the following events to calculate a voter's votes and the total group votes over time:
 
@@ -262,17 +263,16 @@ Given an epoch, [all activate votes (that were not revoked during the epoch) are
 rewards][4]. The simplest way to identify eligible voters is to count active votes at the end of an
 epoch, that means at the epoch block.
 
-> **NOTE** This section is incomplete:
-> TODO:
+> **NOTE** This section is incomplete: TODO:
+>
 > -   [ ] Check: Is that at the epoch block or epoch block - 1?
 
 Using logs alone, active votes can only be calculated by fetching activation
 (`ValidatorGroupVoteActivated`) and revocation (`ValidatorGroupActiveVoteRevoked`) events from
 genesis (block 0) to the epoch of interest.
 
-> **NOTE**:
-> Writing a script to calculate active votes is non-trivial. As a first step, this explainer uses 
-> an indexed data providers like dune.com to calculate active votes.
+> **NOTE**: Writing a script to calculate active votes is non-trivial. As a first step, this
+> explainer uses an indexed data providers like dune.com to calculate active votes.
 
 [4]: https://docs.celo.org/protocol/pos/locked-gold
 
