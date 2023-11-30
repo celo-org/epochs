@@ -258,8 +258,8 @@ event ValidatorGroupActiveVoteRevoked(
 );
 ```
 
-Given an epoch, all activate votes (that were not revoked during the epoch) are eligible for
-rewards. The simplest way to identify eligible voters is to count active votes at the end of an
+Given an epoch, [all activate votes (that were not revoked during the epoch) are eligible for
+rewards][4]. The simplest way to identify eligible voters is to count active votes at the end of an
 epoch, that means at the epoch block.
 
 > **NOTE** This section is incomplete:
@@ -273,6 +273,8 @@ genesis (block 0) to the epoch of interest.
 > **NOTE**:
 > Writing a script to calculate active votes is non-trivial. As a first step, this explainer uses 
 > an indexed data providers like dune.com to calculate active votes.
+
+[4]: https://docs.celo.org/protocol/pos/locked-gold
 
 ### Community fund distributions
 
