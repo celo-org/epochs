@@ -242,7 +242,7 @@ $\text{voting share} = \frac{\text{individual's votes}}{\text{total group votes}
 voter's voting share can change _both_ because the individual's votes changed _and_ because the
 total group votes changed.
 
-We can use the following events to calculate a voter's votes and the total group votes over time:
+We can use the following events from [`Election.sol`][5] to calculate a voter's votes and the total group votes over time:
 
 ```solidity
 event ValidatorGroupVoteActivated(
@@ -275,6 +275,7 @@ genesis (block 0) to the epoch of interest.
 > explainer uses an indexed data providers like dune.com to calculate active votes.
 
 [4]: https://docs.celo.org/protocol/pos/locked-gold
+[5]: https://github.com/celo-org/celo-monorepo/blob/master/packages/protocol/contracts/governance/Election.sol#L128-L133
 
 ### Community fund distributions
 
