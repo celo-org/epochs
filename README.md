@@ -270,6 +270,10 @@ Using logs alone, active votes can only be calculated by fetching activation
 (`ValidatorGroupVoteActivated`) and revocation (`ValidatorGroupActiveVoteRevoked`) events from
 genesis (block 0) to the epoch of interest.
 
+> **NOTE**:
+> Writing a script to calculate active votes is non-trivial. As a first step, this explainer uses 
+> an indexed data providers like dune.com to calculate active votes.
+
 ### Community fund distributions
 
 The Celo blockchain makes distributions to the community fund every epoch.
