@@ -141,11 +141,11 @@ At a high-level epoch transactions can grouped as follows:
 
 Their purpose and how to fetch their logs is described below.
 
-### Validator and validator group rewards
+### Validator rewards
 
 Validators are rewarded for producing blocks and, every epoch, the Celo blockchain distributes
-these rewards in cUSD. A share of validator rewards goes to the group they are part of in the form
-of a "[commission][2]". You can learn more about [validator groups and why they exist][1].
+these rewards to them in cUSD. Of those rewards, a part goes to the group they are part of in 
+the form of a "[commission][2]". You can learn more about [validator groups and why they exist][1].
 
 The relevant event in the [`Validators.sol` smart contract][3] is:
 
@@ -211,6 +211,15 @@ Total voter rewards: 27347.542717542173439382
 ```
 
 ### Individual voter rewards
+
+Unfortunately, there is no simple way to fetch individual voter rewards for a given epoch using 
+event logs alone. That's because events are only emitted for voting rewards that are distributed to
+validator groups, and not for voting rewards that are distributed directly to voters.
+
+The mental model is that:
+
+- many voters vote for a validator group
+- all  CELO is summed and 
 
 > **NOTE** This section is incomplete:
 >
