@@ -6,6 +6,19 @@ them given an epoch.
 > **IMPORTANT** This repo is for educational purposes only. The information provided here may be
 > inaccurate. Please don’t rely on it exclusively to implement low-level client libraries.
 
+## Usage
+
+Requirement(s): 
+
+- Node.js v18.14.2
+
+Running demo scripts:
+
+```sh
+yarn
+yarn ts-node <file_name.ts> # e.g. yarn ts-node totalVoterRewards.ts
+```
+
 ## Context
 
 ### Epochs
@@ -422,19 +435,4 @@ Detail(s): {
 
 No Reserve bolster distribution for epoch 1335
 ✨  Done in 1.57s.
-```
-
-## Usage
-
-> **WARNING** The demos are work in progress and may not work as expected at the moment.
-
-### Requirements
-
--   Node.js v18.14.2
-
-### Demo
-
-```sh
-yarn
-yarn ts-node <file_name.ts> # e.g. yarn ts-node totalVoterRewards.ts
 ```
