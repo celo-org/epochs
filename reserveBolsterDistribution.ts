@@ -43,9 +43,6 @@ async function getReserveBolsterDistribution(epochNumber: bigint) {
     }
 }
 
-/**
- * MAIN
- */
 async function main() {
     await getReserveBolsterDistribution(1234n); // Arbitrary epoch number
     // Compare output to Celo explorer: https://explorer.celo.org/mainnet/block/0x11d6b078b68d16b7a5be7bdbb8dd3ca338fc5064fd59856f96a77fdfc03b9ece/epoch-transactions

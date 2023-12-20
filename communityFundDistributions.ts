@@ -30,9 +30,6 @@ async function getCommunityFundDistribution(epochNumber: bigint) {
     console.log(`Detail(s):`, logs, "\n");
 }
 
-/**
- * MAIN
- */
 async function main() {
     await getCommunityFundDistribution(1307n); // Arbitrary epoch number
     // Compare output to Celo explorer: https://explorer.celo.org/mainnet/block/0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30/epoch-transactions

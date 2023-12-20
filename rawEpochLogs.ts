@@ -1,10 +1,5 @@
 import { decodeEventLog } from "viem";
-import {
-    BLOCKS_PER_EPOCH,
-    getEpochBlockNumber,
-    publicClient,
-    writeToJsonFile,
-} from "./utils";
+import { getEpochBlockNumber, publicClient, writeToJsonFile } from "./utils";
 import {
     validatorsABI,
     epochRewardsABI,
@@ -114,17 +109,12 @@ async function getEpochLogs(epochNumber: bigint) {
 
         // Writes logs to JSON file
         writeToJsonFile(`epoch${epochNumber}`, groupedEventsArray);
-        console.log(
-            `For detailed logs, see: ./output/epoch${epochNumber}.json`
-        );
+        console.log(`For detailed logs, see: ./output/epoch${epochNumber}.json`);
     } catch (error) {
         console.log(error);
     }
 }
 
-/**
- * MAIN
- */
 async function main() {
     await getEpochLogs(1307n);
 }
