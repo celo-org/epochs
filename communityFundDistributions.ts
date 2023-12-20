@@ -1,4 +1,4 @@
-import { goldTokenABI } from "@celo/abis/types/wagmi";
+import { goldTokenABI } from "@celo/abis";
 import { getCoreContractAddress, getEpochBlockNumber, publicClient } from "./utils";
 import { formatEther } from "viem";
 

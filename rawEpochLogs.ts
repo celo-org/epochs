@@ -6,7 +6,7 @@ import {
     electionABI,
     goldTokenABI,
     stableTokenABI,
-} from "@celo/abis/types/wagmi";
+} from "@celo/abis";
 
 interface CoreContracts {
     [address: string]: {

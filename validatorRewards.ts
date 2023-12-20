@@ -1,6 +1,6 @@
 import { createPublicClient, http, formatEther, getContract } from "viem";
 import { celo } from "viem/chains";
-import { validatorsABI, registryABI } from "@celo/abis/types/wagmi";
+import { validatorsABI, registryABI } from "@celo/abis";
 import { writeToJsonFile } from "./utils";
 
 const publicClient = createPublicClient({

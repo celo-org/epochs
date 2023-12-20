@@ -1,6 +1,6 @@
-import { createPublicClient, http, formatEther, getContract } from "viem";
+import { createPublicClient, http, formatEther } from "viem";
 import { celo } from "viem/chains";
-import { electionABI } from "@celo/abis/types/wagmi";
+import { electionABI } from "@celo/abis";
 import { getCoreContractAddress, getEpochBlockNumber, writeToJsonFile } from "./utils";
 
 const publicClient = createPublicClient({

@@ -1,7 +1,7 @@
 import fs from "fs";
 import { createPublicClient, http, getContract } from "viem";
 import { celo } from "viem/chains";
-import { registryABI } from "@celo/abis/types/wagmi";
+import { registryABI } from "@celo/abis";
 
 export const publicClient = createPublicClient({
     chain: celo,
