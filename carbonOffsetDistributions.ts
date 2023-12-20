@@ -1,6 +1,6 @@
 import { formatEther } from "viem";
 import { getCoreContractAddress, getEpochBlockNumber, publicClient } from "./utils";
-import { goldTokenABI } from "@celo/abis/types/wagmi";
+import { goldTokenABI } from "@celo/abis";
 
 const CARBON_OFFSET_ADDRESS = "0xCe10d577295d34782815919843a3a4ef70Dc33ce";
 
