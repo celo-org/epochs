@@ -1,7 +1,7 @@
 import { createPublicClient, http, formatEther, getContract } from "viem";
 import { celo } from "viem/chains";
-import { electionABI, registryABI } from "@celo/abis/types/wagmi";
-import { writeToJsonFile } from "./utils";
+import { electionABI } from "@celo/abis/types/wagmi";
+import { getCoreContractAddress, getEpochBlockNumber, writeToJsonFile } from "./utils";
 
 const publicClient = createPublicClient({
     chain: celo,
@@ -26,29 +26,11 @@ async function getTotalVoterRewards(epochNumber: bigint) {
         writeToJsonFile("evt_epochRewardsDistributedToVoters", logs);
 
         // calculates total
-        const total = formatEther(
-            logs.reduce((sum, log) => sum + log.args.value!, 0n)
-        );
+        const total = formatEther(logs.reduce((sum, log) => sum + log.args.value!, 0n));
         console.log(`Total voter rewards:`, total);
     } catch (error) {
         console.log(error);
     }
-}
-
-type Address = `0x${string}`;
-
-async function getCoreContractAddress(contractName: string): Promise<Address> {
-    const registryContract = getContract({
-        address: "0x000000000000000000000000000000000000ce10",
-        abi: registryABI,
-        publicClient,
-    });
-    return await registryContract.read.getAddressForStringOrDie([contractName]);
-}
-
-function getEpochBlockNumber(epochNumber: bigint): bigint {
-    const BLOCKS_PER_EPOCH = 17280n;
-    return epochNumber * BLOCKS_PER_EPOCH;
 }
 
 async function main() {
