@@ -295,8 +295,6 @@ genesis to the epoch of interest.
 
 The Celo blockchain makes distributions to the community fund every epoch.
 
-The Celo blockchain makes distributions to the community fund every epoch.
-
 For an example, see [`communityFundDistributions.ts`](./communityFundDistributions.ts) which is a
 simple script that fetches and calculates community fund distributions for a given epoch.
 
