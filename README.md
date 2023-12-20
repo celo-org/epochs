@@ -382,17 +382,52 @@ Detail(s): [
 
 ### Mento reserve distributions (⚠️ deprecated)
 
-> **NOTE** This section is incomplete:
->
-> -   [ ] Add context and explainer
-> -   [ ] Add code example to fetch reserve bolster distributions for a given epoch
-
 In the past, the Celo blockchain also made _ad-hoc_ distributions to the Mento reserve whenever the
 reserve was "low". This is no longer the case since
 [CIP-54: Community rewards go to reserve if undercollaterized](https://github.com/celo-org/celo-proposals/blob/master/CIPs/cip-0054.md)
 was implemented in the
 [Gingerbread hard fork](https://github.com/celo-org/celo-proposals/blob/8260b49b2ec9a87ded6727fec7d9104586eb0752/CIPs/cip-0062.md#specification) on [Sep 26, 2023](https://forum.celo.org/t/mainnet-alfajores-gingerbread-hard-fork-release-sep-26-17-00-utc/6499),
-which removed the
+which removed the ad-hoc distributions.
+
+But for completeness, the script [`reserveBolsterDistribution.ts`](./reserveBolsterDistribution.ts)
+can be used to fetch and calculate reserve bolster distributions for past epochs.
+
+```sh
+$ yarn ts-node reserveBolsterDistribution.ts
+
+Summary: {
+  epoch: 1234n,
+  name: 'Reserve Bolster Distribution',
+  value: '18451.770990182011272262 CELO',
+  to: '0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9'
+} 
+
+Detail(s): {
+  address: '0x471ece3750da237f93b8e339c536989b8978a438',
+  topics: [
+    '0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef',
+    '0x0000000000000000000000000000000000000000000000000000000000000000',
+    '0x0000000000000000000000009380fa34fd9e4fd14c06305fd7b6199089ed4eb9'
+  ],
+  data: '0x0000000000000000000000000000000000000000000003e845c331e5e0847c46',
+  blockNumber: 21323520n,
+  transactionHash: '0x11d6b078b68d16b7a5be7bdbb8dd3ca338fc5064fd59856f96a77fdfc03b9ece',
+  transactionIndex: 7,
+  blockHash: '0x11d6b078b68d16b7a5be7bdbb8dd3ca338fc5064fd59856f96a77fdfc03b9ece',
+  logIndex: 383,
+  removed: false,
+  args: {
+    from: '0x0000000000000000000000000000000000000000',
+    to: '0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9',
+    value: 18451770990182011272262n
+  },
+  eventName: 'Transfer'
+} 
+
+No Reserve bolster distribution for epoch 1335
+✨  Done in 1.57s.
+```
+
 
 ## Usage
 
