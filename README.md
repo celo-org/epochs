@@ -263,16 +263,13 @@ Given an epoch, [all activate votes (that were not revoked during the epoch) are
 rewards][4]. The simplest way to identify eligible voters is to count active votes at the end of an
 epoch, that means at the epoch block.
 
-> **NOTE** This section is incomplete: TODO:
->
-> -   [ ] Check: Is that at the epoch block or epoch block - 1?
-
 Using logs alone, active votes can only be calculated by fetching activation
 (`ValidatorGroupVoteActivated`) and revocation (`ValidatorGroupActiveVoteRevoked`) events from
-genesis (block 0) to the epoch of interest.
+genesis to the epoch of interest.
 
-> **NOTE**: Writing a script to calculate active votes is non-trivial. As a first step, this
-> explainer uses an indexed data providers like dune.com to calculate active votes.
+> **NOTE**: Writing a script to calculate active votes is non-trivial. This
+> explainer does not show how to do that, but might use an indexed data provider
+> like dune.com to provide a demo at a later date.
 
 [4]: https://docs.celo.org/protocol/pos/locked-gold
 [5]: https://github.com/celo-org/celo-monorepo/blob/master/packages/protocol/contracts/governance/Election.sol#L128-L133
@@ -374,11 +371,6 @@ Detail(s): [
 
 ✨  Done in 1.61s.
 ```
-
-> **NOTE** This section is incomplete:
->
-> -   [ ] The script is not tested on epochs where reserve bolster distributions were made, it's
->         possible the `logIndex` needs to be used in that case.
 
 ### Mento reserve distributions (⚠️ deprecated)
 
