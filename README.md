@@ -242,7 +242,8 @@ $\text{voting share} = \frac{\text{individual's votes}}{\text{total group votes}
 voter's voting share can change _both_ because the individual's votes changed _and_ because the
 total group votes changed.
 
-We can use the following events from [`Election.sol`][5] to calculate a voter's votes and the total group votes over time:
+We can use the following events from [`Election.sol`][5] to calculate a voter's votes and the total
+group votes over time:
 
 ```solidity
 event ValidatorGroupVoteActivated(
@@ -267,12 +268,13 @@ Using logs alone, active votes can only be calculated by fetching activation
 (`ValidatorGroupVoteActivated`) and revocation (`ValidatorGroupActiveVoteRevoked`) events from
 genesis to the epoch of interest.
 
-> **NOTE**: Writing a script to calculate active votes is non-trivial. This
-> explainer does not show how to do that, but might use an indexed data provider
-> like dune.com to provide a demo at a later date.
+> **NOTE**: Writing a script to calculate active votes is non-trivial. This explainer does not show
+> how to do that, but might use an indexed data provider like dune.com to provide a demo at a later
+> date.
 
 [4]: https://docs.celo.org/protocol/pos/locked-gold
-[5]: https://github.com/celo-org/celo-monorepo/blob/master/packages/protocol/contracts/governance/Election.sol#L128-L133
+[5]:
+    https://github.com/celo-org/celo-monorepo/blob/master/packages/protocol/contracts/governance/Election.sol#L128-L133
 
 ### Community fund distributions
 
@@ -392,7 +394,7 @@ Summary: {
   name: 'Reserve Bolster Distribution',
   value: '18451.770990182011272262 CELO',
   to: '0x9380fA34Fd9e4Fd14c06305fd7B6199089eD4eb9'
-} 
+}
 
 Detail(s): {
   address: '0x471ece3750da237f93b8e339c536989b8978a438',
@@ -414,12 +416,11 @@ Detail(s): {
     value: 18451770990182011272262n
   },
   eventName: 'Transfer'
-} 
+}
 
 No Reserve bolster distribution for epoch 1335
 ✨  Done in 1.57s.
 ```
-
 
 ## Usage
 
