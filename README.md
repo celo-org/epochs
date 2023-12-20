@@ -6,6 +6,8 @@ them given an epoch.
 > **IMPORTANT** This repo is for educational purposes only. The information provided here may be
 > inaccurate. Please don’t rely on it exclusively to implement low-level client libraries.
 
+## Context
+
 ### Epochs
 
 On Celo, an "epoch" is a period of time during which a set of validators are elected to produce
@@ -129,9 +131,9 @@ For detailed logs, see: ./output/epoch1307.json
 ✨  Done in 1.80s.
 ```
 
-### More details on epoch transactions
+## More details
 
-At a high-level epoch transactions can grouped as follows:
+At a high-level, epoch transactions can be grouped as follows:
 
 1.  Validator and validator group rewards
 1.  Voter rewards
@@ -139,7 +141,7 @@ At a high-level epoch transactions can grouped as follows:
 1.  Carbon offset distributions
 1.  Mento reserve distributions (deprecated, since block `21616000`)
 
-Their purpose and how to fetch their logs is described below.
+Their purpose and how to fetch their logs is described in more detail below.
 
 ### Validator rewards
 
