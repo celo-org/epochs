@@ -1,15 +1,16 @@
 import { goldTokenABI } from "@celo/abis/types/wagmi";
-import { getEpochBlockNumber, publicClient } from "./utils";
+import { getCoreContractAddress, getEpochBlockNumber, publicClient } from "./utils";
 import { formatEther } from "viem";
 
 async function getCommunityFundDistribution(epochNumber: bigint) {
-    const COMMUNITY_FUND_ADDRESS = "0xd533ca259b330c7a88f74e000a3faea2d63b7972";
+    const COMMUNITY_FUND_ADDRESS = await getCoreContractAddress("Governance");
+
     const filter = await publicClient.createContractEventFilter({
-        address: "0x471ece3750da237f93b8e339c536989b8978a438", // CELO ERC20 contract address
+        address: await getCoreContractAddress("GoldToken"), // CELO ERC20 contract address
         abi: goldTokenABI,
         eventName: "Transfer",
         args: {
-            from: "0x0000000000000000000000000000000000000000",
+            from: "0x0000000000000000000000000000000000000000", 
             to: COMMUNITY_FUND_ADDRESS,
         },
         fromBlock: getEpochBlockNumber(epochNumber),

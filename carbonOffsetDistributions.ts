@@ -1,12 +1,12 @@
 import { formatEther } from "viem";
-import { getEpochBlockNumber, publicClient } from "./utils";
+import { getCoreContractAddress, getEpochBlockNumber, publicClient } from "./utils";
 import { goldTokenABI } from "@celo/abis/types/wagmi";
 
 const CARBON_OFFSET_ADDRESS = "0xCe10d577295d34782815919843a3a4ef70Dc33ce";
 
 async function getCarbonOffsetDistribution(epochNumber: bigint) {
     const filter = await publicClient.createContractEventFilter({
-        address: "0x471ece3750da237f93b8e339c536989b8978a438", // CELO ERC20 contract address
+        address: await getCoreContractAddress("GoldToken"), // CELO ERC20 contract address
         abi: goldTokenABI,
         eventName: "Transfer",
         args: {
@@ -30,9 +30,6 @@ async function getCarbonOffsetDistribution(epochNumber: bigint) {
     console.log(`Detail(s):`, logs, "\n");
 }
 
-/**
- * MAIN
- */
 async function main() {
     await getCarbonOffsetDistribution(1307n); // Arbitrary epoch number
     // Compare output to Celo explorer: https://explorer.celo.org/mainnet/block/0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30/epoch-transactions
