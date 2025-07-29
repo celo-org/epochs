@@ -348,7 +348,7 @@ simple script that fetches and calculates carbon offset distributions for a give
 
 To ensure the script works as expected, you can compare the output with the carbon offset
 distributions displayed on the Celo block explorer, for example in
-[epoch 1,307](https://explorer.celo.org/mainnet/block/0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30/epoch-transactions).
+[epoch 1,307](https://celo.blockscout.com/block/0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30).
 
 ```sh
 $ yarn ts-node carbonOffsetDistributions.ts
