@@ -215,7 +215,7 @@ fetches and calculates total voter rewards for a given epoch.
 
 To ensure the script works as expected, you can compare the output with the total voter rewards
 displayed on the Celo block explorer, for example in
-[epoch 1,302](https://explorer.celo.org/mainnet/block/0xe78f9bd66c087207f36dd5b0ef30704c788e2589827b3e39bb8cfc2cb56613ec/epoch-transactions).
+[epoch 1,302](https://celo.blockscout.com/block/0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30).
 
 Example output:
 
@@ -300,7 +300,7 @@ simple script that fetches and calculates community fund distributions for a giv
 
 To ensure the script works as expected, you can compare the output with the community fund
 distributions displayed on the Celo block explorer, for example in
-[epoch 1,307](https://explorer.celo.org/mainnet/block/0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30/epoch-transactions).
+[epoch 1,307](https://celo.blockscout.com/block/0xdd7a9b02f109f41e3ce710cb10ecca4a0f07e49f0f3d62e8c23d7792d6b1ca30).
 
 ```sh
 $ yarn ts-node communityFundDistributions.ts
