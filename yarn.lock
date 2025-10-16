@@ -7,10 +7,10 @@
   resolved "https://registry.npmjs.org/@adraffy/ens-normalize/-/ens-normalize-1.9.4.tgz"
   integrity sha512-UK0bHA7hh9cR39V+4gl2/NnBBjoXIxkuWAPCaY4X7fbH4L/azIi7ilWOCjMUYfpJgraLUAqkRi2BqrjME8Rynw==
 
-"@celo/abis@^10.0.0":
-  version "10.0.0"
-  resolved "https://registry.npmjs.org/@celo/abis/-/abis-10.0.0.tgz"
-  integrity sha512-DC8UAEz89+1yEQqKzkxOWLYGUv/XWaqPAOkU0lKuQzhvN25ndP3fitawQl53WYn8i3ZPfRWfLO4w75l//tDSbg==
+"@celo/abis@^14.0.0":
+  version "14.0.1"
+  resolved "https://registry.yarnpkg.com/@celo/abis/-/abis-14.0.1.tgz#3c45ebe69a9551432f6b8c0dcf5f0a967c0f50b8"
+  integrity sha512-O9NpfpvPxfTEtUd6ekcwDYuXp1PxSoXC/cVgdqo41qyuAAgr/DhQQBMf2xnYrYzJqV5AwYaT+8o5NmutPXONPA==
 
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
