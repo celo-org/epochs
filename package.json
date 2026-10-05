@@ -6,7 +6,7 @@
   "dependencies": {
     "@celo/abis": "^10.0.0",
     "ts-node": "^10.9.1",
-    "viem": "^1.18.4"
+    "viem": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.10.5",
